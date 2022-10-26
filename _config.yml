@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Dong-Kyum
+first_name: Jea
 middle_name: 
-last_name: Kim
-email: kdkyum531@gmail.com
+last_name: Kwon
+email: onlytojay@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -18,7 +18,7 @@ keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://kdkyum.github.io # the base hostname & protocol for your site
+url: https://jeakwon.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -67,13 +67,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: kdkyum # your GitHub user name
+github_username: jeakwon # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: kdkyum531 # your Twitter handle
-linkedin_username: kdkyum # your LinkedIn user name
-scholar_userid: -pvD9xUAAAAJ # your Google Scholar ID
+twitter_username: # your Twitter handle
+linkedin_username: jeakwon # your LinkedIn user name
+scholar_userid: 6I0mg_EAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
-orcid_id: # 0000-0001-6630-2181 # your ORCID ID
+orcid_id: 0000-0003-4318-4383 # 0000-0001-6630-2181 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -91,7 +91,7 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-discord_id: 264689694745427969 # your discord id (18-digit unique numerical identifier)
+discord_id: # your discord id (18-digit unique numerical identifier)
 
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
@@ -100,7 +100,7 @@ discord_id: 264689694745427969 # your discord id (18-digit unique numerical iden
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: G-RKFWVE1P93 # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -228,8 +228,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Kim]
-  first_name: [Dong-Kyum]
+  last_name: [Kwon]
+  first_name: [Jea]
 
   style: apa
   locale: en
