@@ -50,7 +50,7 @@
     - title: Best Poster Presentation Award
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
     - title: Neuroscience-inspired AI
       items: 
