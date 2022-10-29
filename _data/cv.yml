@@ -22,29 +22,29 @@
       description:
         - Full Scholarship Korea - Japan Joint Government Program
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Postdoctoral Researcher
-#       institution: Center for Cognition and Sociality (CCS), Institute for Basic Science (IBS), Republic of Korea
-#       year: 2022 - Current
-#       description:
-#         - "Host: <a href="https://en.wikipedia.org/wiki/Changjoon_Justin_Lee">C. Justin Lee</a> (Director)"
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher
+      institution: Center for Cognition and Sociality (CCS), Institute for Basic Science (IBS), Republic of Korea
+      year: 2022 - Current
+      description:
+        - "Host: <a href="https://en.wikipedia.org/wiki/Changjoon_Justin_Lee">C. Justin Lee</a> (Director)"
         
-#     - title: Researcher
-#       institution: Center for Cognition and Sociality (CCS), Institute for Basic Science (IBS), Republic of Korea
-#       year: 2018 - 2020
+    - title: Researcher
+      institution: Center for Cognition and Sociality (CCS), Institute for Basic Science (IBS), Republic of Korea
+      year: 2018 - 2020
 
-#     - title: Student Researcher
-#       institution: Center for Functional Connectomics, Korea Institute of Science and Technology (KIST), Republic of Korea
-#       year: 2014 - 2018
+    - title: Student Researcher
+      institution: Center for Functional Connectomics, Korea Institute of Science and Technology (KIST), Republic of Korea
+      year: 2014 - 2018
 
-#     - title: Technical Research Personnel 
-#       year: 22017 - 2020 
-#       description:
-#       - Mandatory military service in the Republic of Korea
+    - title: Technical Research Personnel 
+      year: 22017 - 2020 
+      description:
+      - Mandatory military service in the Republic of Korea
 
-# - title: Honors and Awards
+- title: Honors and Awards
 #   type: time_table
 #   contents:
 #     - title: Best Poster Presentation Award
