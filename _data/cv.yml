@@ -50,7 +50,7 @@
     - title: Best Poster Presentation Award
 
 - title: Academic Interests
-  type: list
+  type: nested_list
   contents:
     - title: Neuroscience-inspired AI
       items: 
@@ -58,6 +58,7 @@
         - Astrocyte-inspired network
 
     - title: AI-applied Neuroscience
+      items: 
         - Deep-learning-based electrophysiological analysis
         - 3D-skeleton-based animal behavior analysis
 
