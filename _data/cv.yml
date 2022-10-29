@@ -3,8 +3,8 @@
   contents:
     - name: Full Name
       value: Jea Kwon
-    # - name: Date of Birth
-    #   value: 31st May 1993
+    - name: Date of Birth
+      value: 31st May 1993
     - name: Languages
       value: Korean, English, Japanese
 
