@@ -44,24 +44,24 @@
       description:
       - Mandatory military service in the Republic of Korea
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - title: Best Poster Presentation Award
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: Best Poster Presentation Award
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Neuroscience-inspired AI
-#       items: 
-#         - Hippocampal memory formation
-#         - Astrocyte-inspired network
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Neuroscience-inspired AI
+      items: 
+        - Hippocampal memory formation
+        - Astrocyte-inspired network
 
-#     - title: AI-applied Neuroscience
-#         - Deep-learning-based electrophysiological analysis
-#         - 3D-skeleton-based animal behavior analysis
+    - title: AI-applied Neuroscience
+        - Deep-learning-based electrophysiological analysis
+        - 3D-skeleton-based animal behavior analysis
 
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - a
+- title: Other Interests
+  type: list
+  contents:
+    - a
