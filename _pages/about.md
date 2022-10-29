@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoc @ <a href="https://ds.ibs.re.kr">IBS Data Science Group</a>
+subtitle: Postdoc @ <a href="https://glia.ibs.re.kr/html/glia_en/">IBS Center for Cognition AND Sociality</a>
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>B231, IBS Theory Bldg</p>
-    <p>Expo-ro 55, Yuseong-gu</p>
-    <p>Daejeon, Korea, 34126</p>
+  # address: >
+  #   <p>B231, IBS Theory Bldg</p>
+  #   <p>Expo-ro 55, Yuseong-gu</p>
+  #   <p>Daejeon, Korea, 34126</p>
 
 news: flase  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
