@@ -44,7 +44,7 @@
       description:
       - Mandatory military service in the Republic of Korea
 
-- title: Honors and Awards
+# - title: Honors and Awards
 #   type: time_table
 #   contents:
 #     - title: Best Poster Presentation Award
