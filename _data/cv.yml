@@ -53,6 +53,9 @@
     - title: 2022 KSMBC Best Poster Presentation Award
       contents: Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus
 
+# - title: Invited Talks
+#   type: nested_list
+
 - title: Academic Interests
   type: nested_list
   contents:
