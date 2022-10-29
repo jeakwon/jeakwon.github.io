@@ -6,21 +6,21 @@
     - name: Languages
       value: Korean, English, Japanese
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: Doctor of Philosophy (PhD)
-#       institution: KU-KIST Graduate School of Converging Science and Technology, Korea University (KU), South Korea
-#       year: 2014 - 2022
-#       description:
-#         - "Advisor: C. Justin Lee"
-#         - "Dissertation: The Role of Tonic GABA in Modulation of Spontaneous Motor and Circadian Behavior"
+- title: Education
+  type: time_table
+  contents:
+    - title: Doctor of Philosophy (PhD)
+      institution: KU-KIST Graduate School of Converging Science and Technology, Korea University (KU), South Korea
+      year: 2014 - 2022
+      description:
+        - "Advisor: C. Justin Lee"
+        - "Dissertation: The Role of Tonic GABA in Modulation of Spontaneous Motor and Circadian Behavior"
         
-#     - title: Bachelor of Engineering (BE)
-#       institution: Electrical and Electronic Systems, Saitama University (SU), Japan
-#       year: 2008 - 2012
-#       description:
-#         - Full Scholarship Korea - Japan Joint Government Program
+    - title: Bachelor of Engineering (BE)
+      institution: Electrical and Electronic Systems, Saitama University (SU), Japan
+      year: 2008 - 2012
+      description:
+        - Full Scholarship Korea - Japan Joint Government Program
 
 # - title: Experience
 #   type: time_table
