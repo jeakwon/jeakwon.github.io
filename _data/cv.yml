@@ -2,53 +2,79 @@
   type: map
   contents:
     - name: Full Name
-      value: Dong-Kyum Kim
-    - name: Date of Birth
-      value: 31st May 1993
+      value: Jea Kwon
+    # - name: Date of Birth
+    #   value: 31st May 1993
     - name: Languages
-      value: Korean, English
+      value: Korean, English, Japanese
+
+2007 - 2012 	Full Scholarship Korea - Japan Joint Government Program
+2008 - 2012 	B.E.
+Electrical and Electronic Systems, Saitama University, Japan
+2014 - 2021 	Ph.D. (From. 2021. 3. 1.)
+KU-KIST Graduate School of Converging Science and Technology, Korea University, Republic of Korea
+2014 - 2018 	Student Researcher
+Center for Functional Connectomics, Korea Institute of Science and Technology (KIST), Republic of Korea
+2018 - 2020 	Researcher
+Center for Cognition and Sociality, Institute for Basic Science (IBS), Republic of Korea
+2017 - 2020 	Technical Research Personnel 
+Mandatory military service in the Republic of Korea
+
 
 - title: Education
   type: time_table
   contents:
-    - title: Doctor of Philosophy (PhD) in Physics
-      institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea
-      year: 2016 - 2022
+    - title: Doctor of Philosophy (PhD)
+      institution: KU-KIST Graduate School of Converging Science and Technology, Korea University (KU), South Korea
+      year: 2014 - 2022
       description:
-        - "Advisor: Prof. Hawoong Jeong"
-        - "Dissertation: Nonequilibrium Statistical Physics Study using Deep Learning"
-    - title: Bachelor of Science (BS) in Physics
-      institution: Seoul National University (SNU), Seoul, South Korea
-      year: 2011 - 2015
+        - "Advisor: C. Justin Lee"
+        - "Dissertation: The Role of Tonic GABA in Modulation of Spontaneous Motor and Circadian Behavior"
+        
+    - title: Bachelor of Engineering (BE)
+      institution: Electrical and Electronic Systems, Saitama University (SU), Japan
+      year: 2008 - 2012
       description:
-        - Major in Physics and Minor in Computer Science & Engineering.
+        - Full Scholarship Korea - Japan Joint Government Program
 
 - title: Experience
   type: time_table
   contents:
     - title: Postdoctoral Researcher
-      institution: Institute for Basic Science (IBS), Daejeon, South Korea
+      institution: Center for Cognition and Sociality (CCS), Institute for Basic Science (IBS), Republic of Korea
       year: 2022 - Current
       description:
-        - Data Science Group, Center for Mathematical and Computational Sciences.
-        - Hosted by Prof. <a href="https://ds.ibs.re.kr/ci/">Meeyoung Cha</a> (Chief Investigator).
-    - title: Machine Learning Intern
-      institution: Samsung Electronics, Hwaseong, South Korea
-      year: Sep. 2017 - Dec. 2017 
-      description:
-        - Collaborated with <a href="https://www.linkedin.com/in/danielyounghokim/">Daniel Kim</a> (Senior Data Scientist).
-        - Improved anomaly image classification tasks via distributed multi-GPU training methods of Keras and Spark.
-        - Implemented a distributed image searching framework to detect similar patterns in images through Elasticsearch.
+        - "Host: <a href="https://en.wikipedia.org/wiki/Changjoon_Justin_Lee">C. Justin Lee</a> (Director)"
+        
+    - title: Researcher
+      institution: Center for Cognition and Sociality (CCS), Institute for Basic Science (IBS), Republic of Korea
+      year: 2018 - 2020
 
+    - title: Student Researcher
+      institution: Center for Functional Connectomics, Korea Institute of Science and Technology (KIST), Republic of Korea
+      year: 2014 - 2018
+
+    - title: Technical Research Personnel 
+      year: 22017 - 2020 
+      description:
+      - Mandatory military service in the Republic of Korea
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: Best Poster Presentation Award
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: AI
+    - title: Neuroscience-inspired AI
       items: 
-        - AI for Physics
-        - Brain-inspired AI
-        - Big Data Analysis by using AI
+        - Hippocampal memory formation
+        - Astrocyte-inspired network
+
+    - title: AI-applied Neuroscience
+        - Deep-learning-based electrophysiological analysis
+        - 3D-skeleton-based animal behavior analysis
 
 - title: Other Interests
   type: list
