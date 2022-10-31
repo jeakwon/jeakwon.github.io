@@ -44,18 +44,6 @@
       description:
       - Mandatory military service in the Republic of Korea
 
-- title: Honors and Awards
-  type: nested_list
-  contents:
-    - title: 2022 KSBNS Best Poster Presentation Award
-      contents: ABCD-analysis - Mapping animal behavior and differential analysis of kinematic features without selection bias
-  contents:
-    - title: 2022 KSMBC Best Poster Presentation Award
-      contents: Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus
-
-# - title: Invited Talks
-#   type: nested_list
-
 - title: Academic Interests
   type: nested_list
   contents:
@@ -69,6 +57,66 @@
         - Deep-learning-based electrophysiological analysis
         - 3D-skeleton-based animal behavior analysis
 
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Languages
+      items: 
+        - Korean (+++++)
+        - English (++++)
+        - Japanese (+++)
+
+    - title: Programming
+      items: 
+        - Python (+++++)
+        - Matlab (++++)
+        - PyTorch (++++)
+        - Tensorflow (+++)
+        - R (++)
+        - JavaScript (++)
+
+    - title: Experiments
+      items: 
+        - Electrophysiology (+++++)
+        - Animal behavior (++++)
+        - Brain slice-Imaging (++++)
+        - Molecular Works (+++)
+
+
+
+
+- title: Invited talks & Seminar
+  type: time_table
+  contents:
+    - title: Invited Speaker
+      institution: IBS Data Science Group seminar (Online)
+      year: 2022
+      description: Resolving clustering bias during animal behavior mapping and kinematic profiling. 
+      
+  contents:
+    - title: Oral presentation
+      institution: IBS 2021 2nd workshop
+      year: 2021
+      description: Age-dependent motor coordination analysis by three-dimensional posture estimation using AVATAR.
+      
+  contents:
+    - title: Seminar organizer
+      institution: KAIST NeuroAI research group
+      year: 2020
+      description: Backpropagation and Brain.
+      
+  contents:
+    - title: Invited speaker
+      institution: KSMCB 2019 circadian rhythm workshop, 
+      year: 2019
+      description: Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior.
+
+  contents:
+    - title: Oral presentation
+      institution: IBS 2019 year-end workshop, 
+      year: 2019
+      description: Deep learning with NMDA receptor inspired activation function.
+
 - title: Honors & Awards
   type: time_table
   contents:
@@ -77,3 +125,31 @@
       year: 2022
       description: Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus
         
+  contents:
+    - title: Best Poster Presentation Award
+      institution: 2022 KSBNS conference
+      year: 2022
+      description: ABCD-analysis - Mapping animal behavior and differential analysis of kinematic features without selection bias.
+        
+  contents:
+    - title: Committee member
+      institution: 2022 Business Science Belt in AI-Bio divisio
+      year: 2022
+        
+  contents:
+    - title: Best Poster Presentation Award
+      institution: 2021 IBS 3rd workshop
+      year: 2021
+      description: Mapping Behavior with DECLARE (Deep Embedded Clustering of Action Representation)
+        
+  contents:
+    - title: Founding member
+      institution: KAIST NeuroAI research group
+      year: 2020
+      description: Mapping Behavior with DECLARE (Deep Embedded Clustering of Action Representation)
+        
+  contents:
+    - title: Excellent Poster Presentation Award
+      institution: 2019 FAOPS congress
+      year: 2019
+      description: Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior
