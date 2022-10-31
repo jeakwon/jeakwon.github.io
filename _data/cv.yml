@@ -69,7 +69,11 @@
         - Deep-learning-based electrophysiological analysis
         - 3D-skeleton-based animal behavior analysis
 
-- title: Other Interests
-  type: nested_list
+- title: Honors & Awards
+  type: time_table
   contents:
-    - title: 
+    - title: Best Poster Presentation Award
+      institution: 2022 KSMCB circadian rhythm workshop
+      year: 2022
+      description: Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus
+        
