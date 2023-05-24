@@ -54,8 +54,8 @@
 
     - title: AI-applied Neuroscience
       items: 
-        - Deep-learning-based electrophysiological analysis
-        - 3D-skeleton-based animal behavior analysis
+        - Machine-learning-based neuroscience data analysis
+        - AI-driven animal behavior analysis
 
 - title: Skills
   type: nested_list
@@ -82,12 +82,19 @@
         - Brain slice-Imaging (++++)
         - Molecular Works (+++)
 
-
-
-
 - title: Invited talks & Seminar
   type: time_table
   contents:
+    - title: Invited Speaker (w/ Dr. Dongyum Kim, Dr. Sunpil Kim)
+      institution: IBS Data Science Group seminar (Online)
+      year: 2023
+      description: Unsupervised behavior mapping framework using spectrogram-UMAP-based temporal link embedding
+
+    - title: Invited Speaker (w/ Dr. C. Justin Lee, Dr. Dongyum Kim)
+      institution: IBS winter school on AI-boosted basic science(Online)
+      year: 2022
+      description: Resemblence between transformer's nonlinearity and NMDA receptor dynamics
+
     - title: Invited Speaker
       institution: IBS Data Science Group seminar (Online)
       year: 2022
@@ -98,7 +105,7 @@
       year: 2021
       description: Age-dependent motor coordination analysis by three-dimensional posture estimation using AVATAR.
       
-    - title: Seminar organizer
+    - title: Seminar organizer and Speaker
       institution: KAIST NeuroAI research group
       year: 2020
       description: Backpropagation and Brain.
@@ -125,19 +132,10 @@
       institution: 2022 KSBNS conference
       year: 2022
       description: ABCD-analysis - Mapping animal behavior and differential analysis of kinematic features without selection bias.
-        
-    - title: Committee member
-      institution: 2022 Business Science Belt in AI-Bio divisio
-      year: 2022
-        
+    
     - title: Best Poster Presentation Award
       institution: 2021 IBS 3rd workshop
       year: 2021
-      description: Mapping Behavior with DECLARE (Deep Embedded Clustering of Action Representation)
-        
-    - title: Founding member
-      institution: KAIST NeuroAI research group
-      year: 2020
       description: Mapping Behavior with DECLARE (Deep Embedded Clustering of Action Representation)
         
     - title: Excellent Poster Presentation Award
