@@ -20,6 +20,7 @@ Currently, I am interested in developing artificial systems that align well with
 - Short-term and long-term memory systems in Transformer
 - Machine vision representational alignment with brain
 - Understanding and developing an intelligent behavior system
+
 If you have any similar research interests, feel free to reach out!
 
 <div class="clearfix">
