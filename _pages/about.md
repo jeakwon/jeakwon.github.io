@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am Jay, Postdoc @ <a href="https://glia.ibs.re.kr/html/glia_en/">IBS, Korea</a>
+subtitle: I am Jay, Postdoc @ <a href="https://www.mpi-sp.org/">MPI-SP</a>
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic2.png
   image_circular: false # crops the image to make it circular
 
 news: flase  # includes a list of news items
@@ -15,11 +15,10 @@ social: false  # includes social icons at the bottom of the page
 years: [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
 ---
 **Artificial Systems Aligned with Natural Intelligence**
-
-Currently, I am interested in developing artificial systems that align well with natural intelligence: 
-- Short-term and long-term memory systems in Transformer
-- Machine vision representational alignment with brain
-- Understanding and developing an intelligent behavior system
+Currently, I am interested in developing machines that connect with humans:
+(i) **Machine memory**: Since the human brain efficiently learns through memory-driven contexts, we could enhance AI performance by adopting brain-inspired methods. 
+(ii) **Machine behavior**: As interactions with machines become more important, creating machines that make decisions and act like humans becomes crucial. 
+(iii) **Machine emotion**: Humans are emotional beings, and the goal is to create empathetic machines that can understand and share human emotions.
 
 If you have any similar research interests, feel free to reach out!
 
