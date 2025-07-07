@@ -17,12 +17,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # - name: Setup Ruby
+      #   uses: ruby/setup-ruby@v1
+      #   with:
+      #     ruby-version: '3.0.2'
+      #     bundler-cache: true
+          
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0.2'
-          bundler-cache: true
-
+         ruby-version: '3.0.2'
+         bundler-version: '2.3.22'     # Bundler >=2.3 에서 기본 gem 지원
+         bundler-cache: true
+         
       - name: Install deps
         run: |
           npm install -g mermaid.cli
