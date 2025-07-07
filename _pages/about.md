@@ -6,7 +6,7 @@ subtitle: I am Jay, Postdoc @ <a href="https://www.mpi-sp.org/">MPI-SP</a>
 
 profile:
   align: right
-  image: prof_pic2.png
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
 
 news: flase  # includes a list of news items
