@@ -21,8 +21,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0.2'
-          bundler-version: '2.3.22'
           bundler-cache: true
+
+      - name: Upgrade Bundler to 2.3.22+
+        run: |
+          gem install bundler -v '2.3.22' --no-document
+          bundle _2.3.22_ --version   # 확인용
 
       - name: Install deps
         run: |
@@ -48,7 +52,8 @@ jobs:
           JEKYLL_ENV: production
           BUNDLE_IGNORE_DEFAULT_GEMS: 'true'
         run: |
-          bundle exec jekyll build
+          bundle _2.3.22_ install --jobs=4
+          bundle _2.3.22_ exec jekyll build
           yes | bash bin/deploy --verbose \
             ${{ steps.setup.outputs.NO_PUSH }} \
             --src ${{ steps.setup.outputs.SRC_BRANCH }} \
