@@ -1,0 +1,37 @@
+name: Auto-Generate CV PDF
+on:
+  push:
+    paths:
+      - 'cv.tex'
+      - '_bibliography/papers.bib'
+      # 이 두 파일이 바뀔 때만 작동합니다.
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 파일 쓰기 권한 부여
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: cv.tex
+          latexmk_use_xelatex: true # 한글이나 특수문자 처리를 위해 xeLaTeX 사용
+
+      - name: Move PDF to Assets
+        run: |
+          mkdir -p assets/pdf
+          mv cv.pdf assets/pdf/cv.pdf
+          # 생성된 cv.pdf를 홈페이지 다운로드 폴더로 이동
+
+      - name: Commit & Push PDF
+        run: |
+          git config --global user.name "CV-Bot"
+          git config --global user.email "bot@github.com"
+          git add assets/pdf/cv.pdf
+          git commit -m "Update CV PDF (Auto-generated)" || echo "No changes to commit"
+          git push
