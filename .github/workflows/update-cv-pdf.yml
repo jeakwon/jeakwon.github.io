@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write # 파일 쓰기 권한 부여
-    
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
