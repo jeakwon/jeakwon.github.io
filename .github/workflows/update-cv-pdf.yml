@@ -24,7 +24,7 @@ jobs:
       - name: Move PDF to Assets
         run: |
           mkdir -p assets/pdf
-          mv cv.pdf assets/pdf/cv.pdf
+          mv cv.pdf assets/pdf/CV_JeaKwon.pdf
 
       - name: Commit & Push PDF
         run: |
