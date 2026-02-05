@@ -45,6 +45,7 @@ jobs:
           git add assets/pdf/CV_JeaKwon.pdf cv.tex
           git diff --staged --quiet || (
             git commit -m "Auto-update CV PDF from cv.yml + papers.bib"
+            git pull --rebase
             git push
           )
 
