@@ -5,6 +5,7 @@ on:
       - "_data/cv.yml"
       - "_bibliography/papers.bib"
       - "bin/generate_cv_tex.py"
+  workflow_dispatch:
 
 jobs:
   build_latex:
