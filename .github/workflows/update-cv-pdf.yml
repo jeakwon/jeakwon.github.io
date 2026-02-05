@@ -2,8 +2,9 @@ name: Auto-Generate CV PDF
 on:
   push:
     paths:
-      - "cv.tex"
+      - "_data/cv.yml"
       - "_bibliography/papers.bib"
+      - "bin/generate_cv_tex.py"
 
 jobs:
   build_latex:
@@ -13,7 +14,18 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml bibtexparser
+
+      - name: Generate cv.tex from sources
+        run: python bin/generate_cv_tex.py
 
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v2
@@ -30,6 +42,8 @@ jobs:
         run: |
           git config --global user.name "CV-Bot"
           git config --global user.email "bot@github.com"
-          git add assets/pdf/cv.pdf
-          git commit -m "Update CV PDF (Auto-generated)" || echo "No changes to commit"
-          git push
+          git add assets/pdf/CV_JeaKwon.pdf cv.tex
+          git diff --staged --quiet || (
+            git commit -m "Auto-update CV PDF from cv.yml + papers.bib"
+            git push
+          )

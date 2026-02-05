@@ -1,9 +1,63 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"AAAI":
+  url: https://aaai.org/
+  color: "#003366"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICLR":
+  url: https://iclr.cc/
+  color: "#412991"
 
-"Vision":
-  color: "#009f36"
+"ICLR-W":
+  url: https://iclr.cc/
+  color: "#7e57c2"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#8B0000"
+
+"NeurIPS-W":
+  url: https://neurips.cc/
+  color: "#c62828"
+
+"CVPR-W":
+  url: https://cvpr.thecvf.com/
+  color: "#1a5276"
+
+"IJCV":
+  url: https://www.springer.com/journal/11263
+  color: "#e65100"
+
+"Nat. Commun.":
+  url: https://www.nature.com/ncomms/
+  color: "#c62828"
+
+"Nat. Metab.":
+  url: https://www.nature.com/natmetab/
+  color: "#ad1457"
+
+"Cell Metab.":
+  url: https://www.cell.com/cell-metabolism/
+  color: "#1565c0"
+
+"PNAS":
+  url: https://www.pnas.org/
+  color: "#004d40"
+
+"Brain":
+  url: https://academic.oup.com/brain
+  color: "#6a1b9a"
+
+"J. Neurosci.":
+  url: https://www.jneurosci.org/
+  color: "#0d47a1"
+
+"Curr. Biol.":
+  url: https://www.cell.com/current-biology/
+  color: "#00695c"
+
+"Mol. Brain":
+  url: https://molecularbrain.biomedcentral.com/
+  color: "#2e7d32"
+
+"Exp. Neurobiol.":
+  url: https://www.en-journal.org/
+  color: "#546e7a"
