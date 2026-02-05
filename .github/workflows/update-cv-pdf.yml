@@ -46,3 +46,9 @@ jobs:
             git commit -m "Auto-update CV PDF from cv.yml + papers.bib"
             git push
           )
+
+      - name: Trigger Deploy
+        if: success()
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
