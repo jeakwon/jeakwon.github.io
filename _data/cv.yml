@@ -20,13 +20,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Brain and Cognitive Engineering
+    - title: Ph.D. in Nano-Bio-Information-Technology
       institution: Korea University, Seoul, South Korea
       year: 2014 - 2022
       description:
-        - "Advisor: Prof. C. Justin Lee"
-        - "Dissertation: Deep learning approaches for animal behavior analysis"
-    - title: B.E. in Electrical and Electronic Engineering
+        - "Advisor: C. Justin Lee, Director of IBS"
+    - title: B.E. in Electrical and Electronic System
       institution: Saitama University, Saitama, Japan
       year: 2008 - 2012
 
@@ -36,25 +35,111 @@
     - title: Postdoctoral Researcher
       institution: Max Planck Institute for Security and Privacy (MPI-SP), Bochum, Germany
       year: 2024 - Present
+      description:
+        - "Advisor: Meeyoung Cha, Director of MPI-SP"
     - title: Postdoctoral Researcher
       institution: Center for Cognition and Sociality, Institute for Basic Science (IBS), Daejeon, South Korea
       year: 2022 - 2024
-    - title: Research Intern
+    - title: Researcher
       institution: Center for Cognition and Sociality, Institute for Basic Science (IBS), Daejeon, South Korea
       year: 2018 - 2020
-    - title: Research Assistant
+    - title: Student Researcher
       institution: Korea Institute of Science and Technology (KIST), Seoul, South Korea
       year: 2014 - 2018
+
+- title: Achievements
+  type: time_table
+  contents:
+    - title: Excellent Paper Award
+      institution: Korean Artificial Intelligence Association (JKAIA)
+      year: 2023
+      description:
+        - "Brain-inspired Lp-Convolution benefits large kernels and aligns better with visual cortex"
+    - title: Patent Application & Technology Transfer
+      institution: "Application Number: 10-2023-0027219"
+      year: 2023
+      description:
+        - "Device and Method for Classification of Human and Animal Behavior, Patent Contribution=35%"
+        - "Finalized a technology transfer with ACTNOVA Inc."
+    - title: Best Presentation Award
+      institution: Korean Society for Brain and Neural Sciences (KSBNS)
+      year: 2022
+      description:
+        - "ABCD-analysis: Mapping animal behavior and differential analysis of kinematic features without selection bias"
+    - title: Young Investigator Award
+      institution: Korean Society for Molecular and Cellular Biology (KSMCB)
+      year: 2022
+      description:
+        - "Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus"
+    - title: Best Poster Award
+      institution: Center for Cognition and Sociality (CCS) Workshop
+      year: 2021
+      description:
+        - "Mapping Behavior with DECLARE: Deep Embedded Clustering of Action REpresentation"
+    - title: Full-Ride Scholarship for Doctoral Studies
+      institution: Korea University - Korea Institute of Science and Technology (KU-KIST) Graduate School
+      year: 2014 - 2022
+    - title: Full-Ride Scholarship for Bachelor's Studies
+      institution: Korea-Japan Governments Joint Scholarship Program for Science and Engineering Students
+      year: 2007 - 2012
 
 - title: Invited Talks
   type: time_table
   contents:
-    - title: "Brain-inspired Lp-Convolution"
-      institution: ICLR 2025, Singapore
+    - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
+      institution: "Spark(l)ing Science - Max Planck Institute for Security and Privacy"
+      year: 2026
+    - title: "How neuroscience can benefit AI"
+      institution: "KAIST BK21 IBS Symposium - Integrated Neuroscience and Physiology"
       year: 2025
-    - title: "SUBTLE: Unsupervised Animal Behavior Mapping"
-      institution: CVPR CV4Animals Workshop 2023
+    - title: "Transformer as a Hippocampal Memory Consolidation Model based on NMDAR-inspired Nonlinearity"
+      institution: "KSBNS Symposium"
+      year: 2025
+    - title: "Sovereign AI: K-AI as an opportunity"
+      institution: "Netzwerk Junge Generation Deutschland-Korea"
+      year: 2025
+    - title: "Brain-inspired AI"
+      institution: "Institute for Basic Science (IBS)"
+      year: 2025
+    - title: "Brain-inspired AI"
+      institution: "Korea Brain Research Institute (KBRI)"
+      year: 2025
+    - title: "Brain-inspired AI"
+      institution: "Gwangju Institute of Science and Technology (GIST)"
+      year: 2025
+    - title: "Neuroscience for Artificial Intelligence"
+      institution: "MLAI group, Yonsei University"
+      year: 2025
+    - title: "Brain-inspired AI"
+      institution: "Kyungpook National University (KNU)"
+      year: 2024
+    - title: "SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior"
+      institution: "Korea Institute of Ocean Science & Technology (KIOST)"
+      year: 2024
+    - title: "SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior"
+      institution: "Korea Brain Research Institute (KBRI)"
+      year: 2024
+    - title: "Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity"
+      institution: "IBS-CCS Symposium"
       year: 2023
-    - title: "Deep Learning for Animal Behavior Analysis"
-      institution: Institute for Basic Science (IBS), Daejeon
+    - title: "Memory editing in the brain - Eternal Sunshine of the Spotless Mind"
+      institution: "IBS Science in the Cinema Roof"
+      year: 2023
+    - title: "From human mind to artificial intelligence - Is ChatGPT a bridge"
+      institution: "Reading Festival at Jeonil High School"
+      year: 2023
+    - title: "Resolving clustering bias during animal behavior mapping and kinematic profiling"
+      institution: "IBS Data Science Group seminar"
       year: 2022
+    - title: "Age-dependent motor coordination analysis by 3D pose-estimation using AVATAR"
+      institution: "IBS 2021 2nd Workshop"
+      year: 2021
+    - title: "Backpropagation and the Brain"
+      institution: "KAIST-NeuroAI Journal Club"
+      year: 2020
+    - title: "Deep learning with NMDA receptor inspired activation function"
+      institution: "IBS 2019 Year-End Workshop"
+      year: 2020
+    - title: "Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior"
+      institution: "Korean Society for Molecular and Cellular Biology (KSMCB)"
+      year: 2019
