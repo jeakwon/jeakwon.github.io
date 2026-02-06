@@ -1,14 +1,1 @@
-"lee":
-  - firstname: ["C. Justin", "C Justin", "C.J."]
-    url: https://scholar.google.com/citations?user=XXXXX
-
-"cha":
-  - firstname: ["Meeyoung", "M."]
-    url: https://scholar.google.com/citations?user=iRmJFGwAAAAJ
-
-"kim":
-  - firstname: ["Dong-Kyum", "D."]
-    url: https://scholar.google.com/citations?user=XXXXX
-
-  - firstname: ["Sunpil", "S."]
-    url: https://scholar.google.com/citations?user=XXXXX
+# Co-author linking disabled
