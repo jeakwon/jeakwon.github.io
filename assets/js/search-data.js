@@ -46,8 +46,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-honored-to-receive-the-ksbns-2022-best-presentation-award-for-our-work-abcd-analysis-mapping-animal-behavior-and-differential-analysis-of-kinematic-features-without-selection-bias",
-          title: 'Honored to receive the KSBNS 2022 BEST PRESENTATION AWARD for our work, “ABCD-analysis:...',
+            },},{id: "news-honored-to-receive-the-ksbns-2022-best-presentation-award-for-abcd-analysis-mapping-animal-behavior-and-differential-analysis-of-kinematic-features-without-selection-bias",
+          title: 'Honored to receive the KSBNS 2022 Best Presentation Award for “ABCD-analysis: Mapping animal...',
           description: "",
           section: "News",},{id: "news-our-paper-transformer-as-a-hippocampal-memory-consolidation-model-based-on-nmdar-inspired-nonlinearity-has-been-accepted-at-neurips-2023",
           title: 'Our paper “Transformer as a Hippocampal Memory Consolidation Model Based on NMDAR-Inspired Nonlinearity”...',
