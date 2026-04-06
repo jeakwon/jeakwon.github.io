@@ -64,7 +64,7 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-at-iclr-2026-bilinear-relational-structure-fixes-reversal-curse-and-enables-consistent-model-editing-and-erase-or-hide-suppressing-spurious-unlearning-neurons-for-robust-unlearning",
           title: 'Two papers accepted at ICLR 2026: “Bilinear Relational Structure Fixes Reversal Curse and...',
           description: "",
-          section: "News",},{id: "news-our-paper-cerebellar-tonic-inhibition-orchestrates-the-maturation-of-information-processing-and-motor-coordination-has-been-accepted-at-experimental-amp-amp-molecular-medicine-if-14-2",
+          section: "News",},{id: "news-our-paper-cerebellar-tonic-inhibition-orchestrates-the-maturation-of-information-processing-and-motor-coordination-has-been-accepted-at-experimental-amp-amp-molecular-medicine",
           title: 'Our paper “Cerebellar tonic inhibition orchestrates the maturation of information processing and motor...',
           description: "",
           section: "News",},{id: "news-two-papers-accepted-at-acl-2026-exploring-llm-behavior-in-relational-moral-dilemmas-moral-rightness-predicted-human-behavior-and-model-decisions-and-how-training-data-shapes-the-use-of-parametric-and-in-context-knowledge-in-language-models",
