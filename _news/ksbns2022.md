@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to receive the **KSBNS 2022 BEST PRESENTATION AWARD** for our work, "ABCD-analysis: Mapping animal behavior and differential analysis of kinematic features without selection bias".
+Honored to receive the **KSBNS 2022 Best Presentation Award** for "ABCD-analysis: Mapping animal behavior and differential analysis of kinematic features without selection bias".
