@@ -73,7 +73,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-cerebellar-tonic-inhibition-orchestrates-the-maturation-of-information-processing-and-motor-coordination-has-been-accepted-at-experimental-amp-amp-molecular-medicine",
           title: 'Our paper “Cerebellar tonic inhibition orchestrates the maturation of information processing and motor...',
           description: "",
-          section: "News",},{id: "news-two-papers-accepted-at-acl-2026-exploring-llm-behavior-in-relational-moral-dilemmas-moral-rightness-predicted-human-behavior-and-model-decisions-and-how-training-data-shapes-the-use-of-parametric-and-in-context-knowledge-in-language-models",
+          section: "News",},{id: "news-two-papers-accepted-at-acl-2026-exploring-llm-behavior-in-relational-moral-dilemmas-moral-rightness-predicted-human-behavior-and-model-decisions-findings-and-how-training-data-shapes-the-use-of-parametric-and-in-context-knowledge-in-language-models-main",
           title: 'Two papers accepted at ACL 2026: “Exploring LLM Behavior in Relational Moral Dilemmas:...',
           description: "",
           section: "News",},{id: "projects-project-1",
