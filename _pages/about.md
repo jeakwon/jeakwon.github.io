@@ -26,8 +26,14 @@ latest_posts:
   enabled: false
 ---
 
-I am a postdoctoral researcher at the [Max Planck Institute for Security and Privacy (MPI-SP)](https://www.mpi-sp.org/) in Bochum, Germany. My research focuses on brain-inspired machine intelligence, exploring how principles from neuroscience can inform the design of more capable and aligned AI systems.
 
-I received my Ph.D. in Science from Korea University, where I developed machine learning approaches for animal behavior analysis. Previously, I worked at the Institute for Basic Science (IBS) and the Korea Institute of Science and Technology (KIST).
+I am a postdoctoral researcher at the [Max Planck Institute for Security and Privacy (MPI-SP)](https://www.mpi-sp.org/), working on **machine memory**, **mechanistic interpretability**, and **alignment** in large language models.
 
-My current research interests span three themes: **machine memory** (memory-driven learning), **machine behavior** (human-like decision-making and AI alignment), and **machine emotion** (empathetic machines). I develop computational tools bridging neuroscience and AI, including [SUBTLE](https://github.com/jeakwon/subtle) for unsupervised behavior mapping and [Lp-Convolution](https://github.com/jeakwon/lpconv) for brain-inspired visual processing.
+My path to AI began in neuroscience wet labs—recording synaptic responses, inducing LTP and LTD to study memory formation, and using optogenetics to causally link neural circuits to behavior. I then moved upstream, developing AI systems to analyze the complex behaviors these manipulations produced. This arc—from probing biological memory, to controlling it, to quantifying its behavioral consequences—now shapes how I approach neural networks.
+
+I study **AI Engrams**: locating where learned knowledge resides within model parameters and building precise methods to edit or erase it. I am also interested in the correspondence between biological and artificial neural networks—reinterpreting transformers as models of hippocampal memory consolidation and studying representational alignment between visual cortex and convolutional networks.
+
+My underlying conviction is that **interpretability, steerability, and alignment form a causal chain.** If we can precisely locate memory traces within parameters, we gain the ability to steer model behavior at its source. And if we can steer it, we can align it. The path to trustworthy AI runs through understanding the learning and memory of AI.
+
+Ph.D. from Korea University; previously at [IBS](https://www.ibs.re.kr/) and [KIST](https://www.kist.re.kr/).
+
