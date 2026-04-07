@@ -50,6 +50,11 @@
 - title: Achievements
   type: time_table
   contents:
+    - title: Seal of Excellence — MSCA Postdoctoral Fellowships 2025
+      institution: European Commission, Horizon Europe (HORIZON-MSCA-2025-PF-01-01)
+      year: 2026
+      description:
+        - "Proposal 101286042 — TRACE: Towards Reliable AI through Cognitive Engrams (with Max-Planck-Gesellschaft), total score 89.40%"
     - title: Excellent Paper Award
       institution: Korean Artificial Intelligence Association (JKAIA)
       year: 2023
@@ -82,6 +87,35 @@
     - title: Full-Ride Scholarship for Bachelor's Studies
       institution: Korea-Japan Governments Joint Scholarship Program for Science and Engineering Students
       year: 2007 - 2012
+
+- title: Organizing Experience
+  type: time_table
+  contents:
+    - title: 'Symposium Organizer: "Minds Meet Machines: Bidirectional Innovations in AI and Neuroscience"'
+      institution: Korean Society for Brain and Neural Sciences (KSBNS) Annual Meeting
+      year: 2026
+    - title: 'Symposium Co-Organizer: "Neuroscience-inspired AI: Computational Insights into Biological and Artificial Intelligence"'
+      institution: KSBNS & CJK (China-Japan-Korea) Joint Symposium
+      year: 2025
+    - title: Founding Member
+      institution: KAIST-NeuroAI Journal Club
+      year: 2020
+
+- title: Program Committees & Reviewing
+  type: time_table
+  contents:
+    - title: Program Committee
+      institution: "AAAI 2026, AI Alignment Track"
+      year: 2026
+    - title: Program Committee
+      institution: "Machine+Behavior Conference 2026, Harnack House, Berlin"
+      year: 2026
+    - title: Reviewer
+      institution: International Conference on Learning Representations (ICLR)
+      year: 2025 - 2026
+    - title: Reviewer
+      institution: ICLR Re-Align Workshop
+      year: 2026
 
 - title: Invited Talks
   type: time_table
