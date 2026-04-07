@@ -13,9 +13,9 @@
 - title: Research Interests
   type: list
   contents:
-    - Brain-inspired machine intelligence, deep learning for pose estimation and action recognition
-    - Neural decoding, computational neuroscience, memory-driven learning
-    - Privacy and security in AI systems, human-AI alignment
+    - "Machine memory and AI engrams: localizing, editing, and erasing learned knowledge in LLM parameters"
+    - Mechanistic interpretability, steerability, and alignment of large language models
+    - "Neuro4AI and AI4Neuro: brain-inspired AI and AI-driven neuroscience"
 
 - title: Education
   type: time_table
