@@ -87,6 +87,15 @@
   type: time_table
   contents:
     - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
+      institution: "Scalable Trustworthy AI (STAI) group - KAIST"
+      year: 2026
+    - title: "AI and Neuroscience"
+      institution: "Introduction to System Health - Ewha Womans University"
+      year: 2026
+    - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
+      institution: "Max Planck Institute for Software Systems"
+      year: 2026
+    - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
       institution: "Spark(l)ing Science - Max Planck Institute for Security and Privacy"
       year: 2026
     - title: "How neuroscience can benefit AI"
