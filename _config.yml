@@ -6,8 +6,7 @@ title: Jea (Jay) Kwon
 first_name: Jea
 middle_name: (Jay)
 last_name: Kwon
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: > #You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Jea (Jay) Kwon's academic homepage. Postdoctoral Researcher at Max Planck Institute for Security and Privacy.
 footer_text: >
