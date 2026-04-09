@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-emergent-misalignment-when-finetuning-goes-wrong-in-ways-you-didn-39-t-expect",
+        },{id: "post-a-structural-view-of-ai-engrams-notes-after-a-conversation-with-peter-dayan",
+        
+          title: "A Structural View of AI Engrams: Notes After a Conversation with Peter Dayan...",
+        
+        description: "Floating thoughts on what kind of memory I am actually looking for when I search for engrams in AI models, sparked by a question I could not immediately answer.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ai-engrams-structural-perspective/";
+          
+        },
+      },{id: "post-emergent-misalignment-when-finetuning-goes-wrong-in-ways-you-didn-39-t-expect",
         
           title: "Emergent Misalignment: When Finetuning Goes Wrong in Ways You Didn&#39;t Expect",
         
