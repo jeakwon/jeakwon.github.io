@@ -207,7 +207,7 @@ def render_publications(entries: list) -> str:
 
 def render_cv_section_items(section: dict) -> str:
     r"""Render a time_table section using Michaillat \sep style."""
-    title = section.get("title", "").lower()
+    title = escape_latex(section.get("title", "").lower())
     lines = [f"\\block{{{title}}}", "", "\\begin{itemize}"]
 
     for item in section.get("contents", []):
@@ -238,7 +238,7 @@ def render_cv_section_items(section: dict) -> str:
 
 def render_list_section(section: dict) -> str:
     """Render a list section."""
-    title = section.get("title", "").lower()
+    title = escape_latex(section.get("title", "").lower())
     lines = [f"\\block{{{title}}}", "", "\\begin{itemize}"]
     for item in section.get("contents", []):
         lines.append(f"\\item {escape_latex(str(item))}")
@@ -248,7 +248,7 @@ def render_list_section(section: dict) -> str:
 
 def render_nested_list(section: dict) -> str:
     """Render a nested list section."""
-    title = section.get("title", "").lower()
+    title = escape_latex(section.get("title", "").lower())
     lines = [f"\\block{{{title}}}", "", "\\begin{itemize}"]
     for group in section.get("contents", []):
         items_str = ", ".join(escape_latex(i) for i in group.get("items", []))
