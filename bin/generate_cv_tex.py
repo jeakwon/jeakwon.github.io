@@ -170,37 +170,51 @@ def format_author_list(author_string: str) -> str:
     return ", ".join(formatted)
 
 
+def _render_entry(entry: dict) -> list:
+    """Render a single bib entry as LaTeX lines in academic format."""
+    authors = format_author_list(entry.get("author", ""))
+    title = entry.get("title", "")
+    math_spans = re.findall(r'\$[^$]+\$', title)
+    placeholders = {}
+    for i, m in enumerate(math_spans):
+        ph = f"MTHPHLDR{i}ZZ"
+        placeholders[ph] = m
+        title = title.replace(m, ph, 1)
+    title = title.replace("{", "").replace("}", "")
+    title = escape_latex(title)
+    for ph, m in placeholders.items():
+        title = title.replace(ph, m)
+    venue = entry.get("journal", "") or entry.get("booktitle", "")
+    venue = escape_latex(venue)
+    year = entry.get("year", "")
+    return [
+        f"\\item {authors}.\\\\",
+        f"{title}.\\\\",
+        f"\\textit{{{venue}}}, {year}.",
+    ]
+
+
+def render_selected_publications(entries: list) -> str:
+    """Render only entries with selected={true}, reverse-chronological."""
+    selected = [e for e in entries if str(e.get("selected", "")).lower() == "true"]
+    if not selected:
+        return ""
+    selected.sort(key=lambda e: int(e.get("year", "0")), reverse=True)
+    lines = ["\\block{selected publications}", "", "\\begin{etaremune}"]
+    for entry in selected:
+        lines.extend(_render_entry(entry))
+    lines.append("\\end{etaremune}")
+    return "\n".join(lines)
+
+
 def render_publications(entries: list) -> str:
     """Render publications as reverse-numbered list (etaremune) in academic format."""
     sorted_entries = sorted(
         entries, key=lambda e: int(e.get("year", "0")), reverse=True
     )
-
     lines = ["\\block{publications}", "", "\\begin{etaremune}"]
-
     for entry in sorted_entries:
-        authors = format_author_list(entry.get("author", ""))
-        title = entry.get("title", "")
-        # Preserve $...$ math mode, strip BibTeX braces, then escape
-        math_spans = re.findall(r'\$[^$]+\$', title)
-        placeholders = {}
-        for i, m in enumerate(math_spans):
-            ph = f"MTHPHLDR{i}ZZ"
-            placeholders[ph] = m
-            title = title.replace(m, ph, 1)
-        title = title.replace("{", "").replace("}", "")
-        title = escape_latex(title)
-        for ph, m in placeholders.items():
-            title = title.replace(ph, m)
-        venue = entry.get("journal", "") or entry.get("booktitle", "")
-        venue = escape_latex(venue)
-        year = entry.get("year", "")
-
-        # Academic format: Authors. Title. Venue, Year.
-        lines.append(f"\\item {authors}.\\\\")
-        lines.append(f"{title}.\\\\")
-        lines.append(f"\\textit{{{venue}}}, {year}.")
-
+        lines.extend(_render_entry(entry))
     lines.append("\\end{etaremune}")
     return "\n".join(lines)
 
@@ -297,7 +311,10 @@ def generate_cv_tex():
         elif st == "nested_list":
             parts.append(render_nested_list(section))
 
-    # Publications (from papers.bib)
+    # Publications (from papers.bib): selected highlights first, then full list
+    selected_block = render_selected_publications(publications)
+    if selected_block:
+        parts.append(selected_block)
     parts.append(render_publications(publications))
 
     parts.append("\n\\end{document}\n")
