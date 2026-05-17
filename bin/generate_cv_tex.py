@@ -544,12 +544,11 @@ def generate_cv_tex():
             parts.append(render_prefixed_section(section))
         elif st == "role_suffix":
             parts.append(render_role_suffix_section(section))
+        elif st == "publication_summary":
+            parts.append(render_publication_summary(publications, load_scholar_stats()))
+        elif st == "publications":
+            parts.append(render_publications(publications))
 
-    # Publication summary (citations + venue breakdown)
-    parts.append(render_publication_summary(publications, load_scholar_stats()))
-
-    # Full Publications list (selected entries marked inline with checkmark)
-    parts.append(render_publications(publications))
 
     parts.append("\n\\end{document}\n")
 

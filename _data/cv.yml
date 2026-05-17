@@ -50,6 +50,9 @@
       institution: Korea Institute of Science and Technology (KIST), Seoul, South Korea
       year: 2014 - 2018
 
+- title: Publication Summary
+  type: publication_summary
+
 - title: Achievements
   type: time_table
   contents:
@@ -247,3 +250,6 @@
       year: 2019
       description:
         - "(Oral Presentation, In person)"
+
+- title: Publications
+  type: publications
