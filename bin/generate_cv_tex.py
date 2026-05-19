@@ -495,9 +495,11 @@ def render_role_suffix_section(section: dict) -> str:
 
 
 def render_paragraph(section: dict) -> str:
-    """Free-form paragraph; contents is a raw string (LaTeX allowed)."""
+    """Free-form paragraph; prefers pdf_paragraph over contents (LaTeX allowed)."""
     title = escape_latex(section.get("title", "").lower())
-    body = section.get("contents", "")
+    body = section.get("pdf_paragraph") or section.get("contents", "")
+    if isinstance(body, list):
+        body = " ".join(str(x) for x in body)
     return f"\\block{{{title}}}\n\n{body}"
 
 
@@ -523,13 +525,19 @@ def render_research_areas(section: dict) -> str:
 
 
 def render_prefixed_section(section: dict) -> str:
-    """Flat list; each item starts with a bold role prefix, then venue (year inline)."""
+    """Flat list; each item starts with a bold role prefix, then venue (year inline).
+    Accepts both prefixed schema (role/venue/theme) and time_table schema (title/institution/description)."""
     title = escape_latex(section.get("title", "").lower())
     lines = [f"\\block{{{title}}}", "", "\\begin{itemize}"]
     for item in section.get("contents", []):
-        role = item.get("role", "")
-        venue = escape_latex(item.get("venue", ""))
+        role = item.get("role") or item.get("title", "")
+        venue = escape_latex(item.get("venue") or item.get("institution", ""))
         theme = item.get("theme", "")
+        if not theme:
+            descs = item.get("description", [])
+            theme_parts = [d for d in descs if isinstance(d, str)]
+            if theme_parts:
+                theme = "; ".join(theme_parts)
         line = f"\\textbf{{{escape_latex(role)}}} \\sep {venue}" if role else venue
         if theme:
             line += f" \\sep {escape_latex(theme)}"
@@ -611,7 +619,8 @@ def generate_cv_tex():
 
     # Render each cv.yml section
     for section in cv_data:
-        st = section.get("type", "")
+        # pdf_style overrides type for PDF rendering; type is for web (al-folio)
+        st = section.get("pdf_style") or section.get("type", "")
         title = section.get("title", "")
         if title == "General Information":
             continue

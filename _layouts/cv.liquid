@@ -28,9 +28,8 @@ layout: default
 
     <article>
       <div class="cv">
-        {% assign web_types = 'list,map,nested_list,time_table,list_groups,paragraph' | split: ',' %}
         {% for entry in site.data.cv %}
-          {% if web_types contains entry.type %}
+          {% unless entry.type == 'publication_summary' or entry.type == 'publications' %}
             <a class="anchor" id="{{ entry.title }}"></a>
             <div class="card mt-3 p-3">
               <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
@@ -45,12 +44,12 @@ layout: default
                   {% include cv/time_table.liquid %}
                 {% elsif entry.type == 'list_groups' %}
                   {% include cv/list_groups.liquid %}
-                {% elsif entry.type == 'paragraph' %}
-                  <p>{{ entry.contents }}</p>
+                {% else %}
+                  {{ entry.contents }}
                 {% endif %}
               </div>
             </div>
-          {% endif %}
+          {% endunless %}
         {% endfor %}
       </div>
     </article>
