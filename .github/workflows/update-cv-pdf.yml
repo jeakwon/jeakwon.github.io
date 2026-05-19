@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - "_data/cv.yml"
+      - "_data/scholar_stats.yml"
       - "_bibliography/papers.bib"
       - "bin/generate_cv_tex.py"
   workflow_dispatch:

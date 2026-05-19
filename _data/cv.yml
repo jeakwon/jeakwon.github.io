@@ -10,12 +10,28 @@
     - name: Email
       value: onlytojay@gmail.com
 
-- title: Research Interests
-  type: list
+- title: Research Areas
+  type: paragraph
+  contents: |
+    My research spans two areas: NeuroAI and Trustworthy AI. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI} ({\small \textcolor{gray}{NeurIPS2023, ICLR2025}}), translating brain mechanisms into model architectures, and \textit{AI for Neuroscience} ({\small \textcolor{gray}{IJCV2024, Exp.Mol.Med.2026}}), applying ML to behavioral and neural data. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability} ({\small \textcolor{gray}{ICML2026 Spotlight}}), probing memory traces in LLMs, and \textit{AI Alignment} ({\small \textcolor{gray}{AAAI2026, ACL2026-f}}), studying human-LLM decision alignment.
+
+- title: Professional Experience
+  type: time_table
   contents:
-    - "Machine memory and AI engrams: localizing, editing, and erasing learned knowledge in LLM parameters"
-    - Mechanistic interpretability, steerability, and alignment of large language models
-    - "Neuro4AI and AI4Neuro: brain-inspired AI and AI-driven neuroscience"
+    - title: Postdoctoral Researcher in Trustworthy AI
+      institution: Max Planck Institute for Security and Privacy (MPI-SP), Bochum, Germany
+      year: 2024 - Present
+      description:
+        - "Advisor: Meeyoung Cha"
+    - title: Postdoctoral Researcher in NeuroAI
+      institution: Institute for Basic Science (IBS), Daejeon, South Korea
+      year: 2022 - 2024
+    - title: Researcher in Neuroscience
+      institution: Institute for Basic Science (IBS), Daejeon, South Korea
+      year: 2018 - 2020
+    - title: Student Researcher
+      institution: Korea Institute of Science and Technology (KIST), Seoul, South Korea
+      year: 2014 - 2018
 
 - title: Education
   type: time_table
@@ -24,28 +40,16 @@
       institution: Korea University, Seoul, South Korea
       year: 2014 - 2022
       description:
-        - "Advisor: C. Justin Lee, Director of IBS"
+        - "Advisor: C. Justin Lee"
+        - "Full-Ride Scholarship, KU-KIST Graduate School"
     - title: B.E. in Electrical and Electronic System
       institution: Saitama University, Saitama, Japan
       year: 2008 - 2012
-
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Postdoctoral Researcher
-      institution: Max Planck Institute for Security and Privacy (MPI-SP), Bochum, Germany
-      year: 2024 - Present
       description:
-        - "Advisor: Meeyoung Cha, Director of MPI-SP"
-    - title: Postdoctoral Researcher
-      institution: Center for Cognition and Sociality, Institute for Basic Science (IBS), Daejeon, South Korea
-      year: 2022 - 2024
-    - title: Researcher
-      institution: Center for Cognition and Sociality, Institute for Basic Science (IBS), Daejeon, South Korea
-      year: 2018 - 2020
-    - title: Student Researcher
-      institution: Korea Institute of Science and Technology (KIST), Seoul, South Korea
-      year: 2014 - 2018
+        - "Full-Ride Scholarship, Korea-Japan Governments Joint Scholarship Program"
+
+- title: Publication Summary
+  type: publication_summary
 
 - title: Achievements
   type: time_table
@@ -81,108 +85,169 @@
       year: 2021
       description:
         - "Mapping Behavior with DECLARE: Deep Embedded Clustering of Action REpresentation"
-    - title: Full-Ride Scholarship for Doctoral Studies
-      institution: Korea University - Korea Institute of Science and Technology (KU-KIST) Graduate School
-      year: 2014 - 2022
-    - title: Full-Ride Scholarship for Bachelor's Studies
-      institution: Korea-Japan Governments Joint Scholarship Program for Science and Engineering Students
-      year: 2007 - 2012
 
-- title: Organizing Experience
-  type: time_table
-  contents:
-    - title: 'Symposium Organizer: "Minds Meet Machines: Bidirectional Innovations in AI and Neuroscience"'
-      institution: Korean Society for Brain and Neural Sciences (KSBNS) Annual Meeting
-      year: 2026
-    - title: 'Symposium Co-Organizer: "Neuroscience-inspired AI: Computational Insights into Biological and Artificial Intelligence"'
-      institution: KSBNS & CJK (China-Japan-Korea) Joint Symposium
-      year: 2025
-    - title: Founding Member
-      institution: KAIST-NeuroAI Journal Club
-      year: 2020
-
-- title: Program Committees & Reviewing
-  type: time_table
-  contents:
-    - title: Program Committee
-      institution: "AAAI 2026, AI Alignment Track"
-      year: 2026
-    - title: Program Committee
-      institution: "Machine+Behavior Conference 2026, Harnack House, Berlin"
-      year: 2026
-    - title: Reviewer
-      institution: International Conference on Learning Representations (ICLR)
-      year: 2026
-    - title: Reviewer
-      institution: ICLR Re-Align Workshop
-      year: 2025 - 2026
-
-- title: Invited Talks
+- title: Talks
   type: time_table
   contents:
     - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
       institution: "Scalable Trustworthy AI (STAI) group - KAIST"
       year: 2026
-    - title: "AI and Neuroscience"
-      institution: "Introduction to System Health - Ewha Womans University"
-      year: 2026
+      description:
+        - "(Invited Seminar, In person, invited by Seong Joon Oh)"
     - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
       institution: "Max Planck Institute for Software Systems"
       year: 2026
+      description:
+        - "(Invited Seminar, In person, invited by Krishna Gummadi)"
     - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
       institution: "Spark(l)ing Science - Max Planck Institute for Security and Privacy"
       year: 2026
+      description:
+        - "(Seminar, In person)"
     - title: "How neuroscience can benefit AI"
       institution: "KAIST BK21 IBS Symposium - Integrated Neuroscience and Physiology"
       year: 2025
+      description:
+        - "(Invited Seminar, In person, invited by Greg Suh)"
     - title: "Transformer as a Hippocampal Memory Consolidation Model based on NMDAR-inspired Nonlinearity"
       institution: "KSBNS Symposium"
       year: 2025
+      description:
+        - "(Invited Seminar, In person)"
     - title: "Sovereign AI: K-AI as an opportunity"
       institution: "Netzwerk Junge Generation Deutschland-Korea"
       year: 2025
+      description:
+        - "(Public Lecture, In person, invited by Muhong Lee)"
     - title: "Brain-inspired AI"
       institution: "Institute for Basic Science (IBS)"
       year: 2025
+      description:
+        - "(Invited Seminar, In person, invited by C. Justin Lee)"
     - title: "Brain-inspired AI"
       institution: "Korea Brain Research Institute (KBRI)"
       year: 2025
+      description:
+        - "(Invited Seminar, In person, invited by Jeongyeon Kim)"
     - title: "Brain-inspired AI"
       institution: "Gwangju Institute of Science and Technology (GIST)"
       year: 2025
+      description:
+        - "(Invited Seminar, In person, invited by Sundong Kim)"
     - title: "Neuroscience for Artificial Intelligence"
       institution: "MLAI group, Yonsei University"
       year: 2025
+      description:
+        - "(Invited Lecture, Offline, invited by Kyungwoo Song)"
     - title: "Brain-inspired AI"
       institution: "Kyungpook National University (KNU)"
       year: 2024
+      description:
+        - "(Invited Seminar, In person, invited by Saekwang Nam)"
     - title: "SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior"
       institution: "Korea Institute of Ocean Science & Technology (KIOST)"
       year: 2024
+      description:
+        - "(Invited Seminar, In person, invited by Soomee Kim)"
     - title: "SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior"
       institution: "Korea Brain Research Institute (KBRI)"
       year: 2024
+      description:
+        - "(Invited Seminar, In person, invited by Jeongyeon Kim)"
     - title: "Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity"
       institution: "IBS-CCS Symposium"
       year: 2023
+      description:
+        - "(Oral Presentation, In person)"
     - title: "Memory editing in the brain - Eternal Sunshine of the Spotless Mind"
       institution: "IBS Science in the Cinema Roof"
       year: 2023
+      description:
+        - "(Public Lecture, In person)"
     - title: "From human mind to artificial intelligence - Is ChatGPT a bridge"
       institution: "Reading Festival at Jeonil High School"
       year: 2023
+      description:
+        - "(Public Lecture, In person)"
     - title: "Resolving clustering bias during animal behavior mapping and kinematic profiling"
       institution: "IBS Data Science Group seminar"
       year: 2022
+      description:
+        - "(Invited Seminar, Online, invited by Meeyoung Cha)"
+    - title: "Resemblances Between Transformer's Nonlinearity and NMDA Receptor Dynamics"
+      institution: "IBS Winter School on AI-Boosted Basic Science"
+      year: 2022
+      description:
+        - "(Invited Lecture, In person)"
     - title: "Age-dependent motor coordination analysis by 3D pose-estimation using AVATAR"
       institution: "IBS 2021 2nd Workshop"
       year: 2021
+      description:
+        - "(Oral Presentation, In person)"
     - title: "Backpropagation and the Brain"
       institution: "KAIST-NeuroAI Journal Club"
       year: 2020
+      description:
+        - "(Oral Presentation, Hybrid)"
     - title: "Deep learning with NMDA receptor inspired activation function"
       institution: "IBS 2019 Year-End Workshop"
       year: 2020
+      description:
+        - "(Oral Presentation, In person)"
     - title: "Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior"
       institution: "Korean Society for Molecular and Cellular Biology (KSMCB)"
       year: 2019
+      description:
+        - "(Oral Presentation, In person)"
+
+- title: Teaching
+  type: prefixed
+  contents:
+    - role: Guest Lecturer
+      venue: 'Georgia Tech CSE 8803 BMI "Brain-inspired Machine Intelligence", Fall 2024'
+    - role: Guest Lecturer
+      venue: 'Ewha Womans University G 18067 "Introduction to System Health", Spring 2026'
+    - role: Mentoring
+      venue: 'SoHyung Kim (Korea University, Undergraduate Intern), IBS 2020, 6 months'
+      theme: 'Outputs: CVPR2023-w, IJCV2024 (co-author)'
+    - role: Mentoring
+      venue: 'Hyewon Kim (Eulji University, Undergraduate Intern), IBS 2024, 9 months'
+      theme: 'Outputs: ICLR2024-w (co-author), Exp.Neurobiol.2024 (co-first author)'
+    - role: Mentoring
+      venue: 'Minsung Kim (Seoul National University, Ph.D. Intern, with Dong-Kyum Kim), MPI-SP 2024, 3 months'
+      theme: 'Outputs: ICLR2025-b, ACL2026 (first author)'
+    - role: Mentoring
+      venue: 'Jiseon Kim (KAIST, Ph.D. Intern, with Luiz Felipe Vecchietti), MPI-SP 2025, 6 months'
+      theme: 'Outputs: ICLR2025-w, ACL2026-f (first author)'
+    - role: Mentoring
+      venue: 'Nakyeong Yang (Seoul National University, Ph.D. Intern, with Dong-Kyum Kim), MPI-SP 2025, 3 months'
+      theme: 'Outputs: ICLR2026 (first author)'
+
+- title: Community Service
+  type: prefixed
+  contents:
+    - role: Symposium Organizer
+      venue: KSBNS 2026 Annual Meeting
+      theme: '"Minds Meet Machines: Bidirectional Innovations in AI and Neuroscience"'
+    - role: Symposium Co-Organizer
+      venue: KSBNS & CJK 2025 Joint Symposium
+      theme: '"Neuroscience-inspired AI: Computational Insights into Biological and Artificial Intelligence"'
+    - role: Program Committee
+      venue: "AAAI 2026, AI Alignment Track"
+    - role: Program Committee
+      venue: "Machine+Behavior 2026, Harnack House, Berlin"
+    - role: Emergency Reviewer
+      venue: ICML 2026
+    - role: Reviewer
+      venue: ICML 2026 Mechanistic Interpretability Workshop
+    - role: Reviewer
+      venue: ICLR 2026
+    - role: Reviewer
+      venue: ICLR 2026 Re-Align Workshop
+    - role: Reviewer
+      venue: ICLR 2025 Re-Align Workshop
+    - role: Founding Member
+      venue: KAIST-NeuroAI Journal Club, 2020
+
+- title: Publications
+  type: publications

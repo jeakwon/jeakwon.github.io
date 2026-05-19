@@ -19,6 +19,7 @@
 
 % ---- Colors ----
 \usepackage[x11names]{xcolor}
+\definecolor{accent}{HTML}{1F3A68}
 
 % ---- Header & Footer ----
 \usepackage{fancyhdr}
@@ -29,13 +30,20 @@
 
 % ---- Section formatting ----
 \usepackage{titlesec}
-\titleformat*{\section}{\centering\Huge\scshape}
-\titleformat*{\subsection}{\vskip-3mm\sbseries\scshape\color{gray}}
+\titleformat*{\section}{\centering\Huge\scshape\color{accent}}
+\titleformat*{\subsection}{\sbseries\scshape\color{gray}}
+\titlespacing*{\subsection}{0pt}{1em}{0.3em}
+
+% ---- Math symbols (checkmark, dagger) ----
+\usepackage{amssymb}
+
+% ---- Page break control ----
+\usepackage{needspace}
 
 % ---- Lists ----
 \usepackage{enumitem}
 \usepackage[leftmargin=2em]{etaremune}
-\setlist[itemize,1]{leftmargin=2em,label=\color{gray}{\textendash}}
+\setlist[itemize,1]{leftmargin=2em,label={},itemsep=0.3em,topsep=0.3em,parsep=0pt}
 \setlist[enumerate,1]{leftmargin=2em}
 \renewcommand{\labelenumi}{\color{gray}\theenumi.}
 
@@ -59,212 +67,167 @@
 
 
 
-\name{jea (jay) kwon}
+\noindent {\LARGE\scshape\color{accent} Jea (Jay) Kwon}\hspace{0.8em}{\small\scshape\color{gray} Postdoc @ MPI-SP}\\[0.3em]
+\noindent {\small \href{mailto:onlytojay@gmail.com}{onlytojay@gmail.com} $\cdot$ \href{https://jeakwon.github.io}{Personal Page} $\cdot$ \href{https://github.com/jeakwon}{GitHub} $\cdot$ \href{https://scholar.google.com/citations?user=6I0mg_EAAAAJ}{Scholar} $\cdot$ \href{https://linkedin.com/in/jeakwon}{LinkedIn}}
+\vspace{0.3em}
 
-\block{research interests}
 
-\begin{itemize}
-\item Machine memory and AI engrams: localizing, editing, and erasing learned knowledge in LLM parameters
-\item Mechanistic interpretability, steerability, and alignment of large language models
-\item Neuro4AI and AI4Neuro: brain-inspired AI and AI-driven neuroscience
+\block{research areas}
+
+My research spans two areas: NeuroAI and Trustworthy AI. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI} ({\small \textcolor{gray}{NeurIPS2023, ICLR2025}}), translating brain mechanisms into model architectures, and \textit{AI for Neuroscience} ({\small \textcolor{gray}{IJCV2024, Exp.Mol.Med.2026}}), applying ML to behavioral and neural data. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability} ({\small \textcolor{gray}{ICML2026 Spotlight}}), probing memory traces in LLMs, and \textit{AI Alignment} ({\small \textcolor{gray}{AAAI2026, ACL2026-f}}), studying human-LLM decision alignment.
+
+
+\block{professional experience}
+
+\begin{itemize}[itemsep=0.25em]
+\item \textbf{Postdoctoral Researcher in Trustworthy AI} \hfill 2024 - Present\\
+\hspace*{1em}Max Planck Institute for Security and Privacy (MPI-SP), Bochum, Germany\\
+\hspace*{1em}$\diamond$~Advisor: Meeyoung Cha
+\item \textbf{Postdoctoral Researcher in NeuroAI} \hfill 2022 - 2024\\
+\hspace*{1em}Institute for Basic Science (IBS), Daejeon, South Korea
+\item \textbf{Researcher in Neuroscience} \hfill 2018 - 2020\\
+\hspace*{1em}Institute for Basic Science (IBS), Daejeon, South Korea
+\item \textbf{Student Researcher} \hfill 2014 - 2018\\
+\hspace*{1em}Korea Institute of Science and Technology (KIST), Seoul, South Korea
 \end{itemize}
 
 \block{education}
 
-\begin{itemize}
-\item Korea University, Seoul, South Korea \sep Ph.D. in Nano-Bio-Information-Technology \sep 2014 - 2022\\
-Advisor: C. Justin Lee, Director of IBS
-\item Saitama University, Saitama, Japan \sep B.E. in Electrical and Electronic System \sep 2008 - 2012
+\begin{itemize}[itemsep=0.25em]
+\item \textbf{Ph.D. in Nano-Bio-Information-Technology} \hfill 2014 - 2022\\
+\hspace*{1em}Korea University, Seoul, South Korea\\
+\hspace*{1em}$\diamond$~Advisor: C. Justin Lee\\
+\hspace*{1em}$\diamond$~Full-Ride Scholarship, KU-KIST Graduate School
+\item \textbf{B.E. in Electrical and Electronic System} \hfill 2008 - 2012\\
+\hspace*{1em}Saitama University, Saitama, Japan\\
+\hspace*{1em}$\diamond$~Full-Ride Scholarship, Korea-Japan Governments Joint Scholarship Program
 \end{itemize}
 
-\block{professional experience}
+\block{publication summary}
 
-\begin{itemize}
-\item Max Planck Institute for Security and Privacy (MPI-SP), Bochum, Germany \sep Postdoctoral Researcher \sep 2024 - Present\\
-Advisor: Meeyoung Cha, Director of MPI-SP
-\item Center for Cognition and Sociality, Institute for Basic Science (IBS), Daejeon, South Korea \sep Postdoctoral Researcher \sep 2022 - 2024
-\item Center for Cognition and Sociality, Institute for Basic Science (IBS), Daejeon, South Korea \sep Researcher \sep 2018 - 2020
-\item Korea Institute of Science and Technology (KIST), Seoul, South Korea \sep Student Researcher \sep 2014 - 2018
+\begin{itemize}[itemsep=0.25em]
+\item \textbf{In Conferences}
+\begin{itemize}\sloppy
+\item \textit{main author} (9): ICML2026,\allowbreak\ AAAI2026,\allowbreak\ ICLR2025,\allowbreak\ NeurIPS2023,\allowbreak\ ACL2026-f,\allowbreak\ ICLR2025-w,\allowbreak\ ICLR2024-w,\allowbreak\ ICLR2024-w,\allowbreak\ CVPR2023-w
+\item \textit{co-author} (8): ICML2026,\allowbreak\ ACL2026,\allowbreak\ ICLR2026,\allowbreak\ ICLR2026,\allowbreak\ ICLR2026-w,\allowbreak\ ICLR2025-b,\allowbreak\ NeurIPS2022-w,\allowbreak\ CVPR2022-w
+\end{itemize}
+\item \textbf{In Journals}
+\begin{itemize}\sloppy
+\item \textit{main author} (6): Exp.Mol.Med.2026,\allowbreak\ IJCV2024,\allowbreak\ Exp.Neurobiol.2024,\allowbreak\ Mol.Brain2021,\allowbreak\ Exp.Neurobiol.2018,\allowbreak\ Exp.Neurobiol.2017
+\item \textit{co-author} (14): Nat.Commun.2025,\allowbreak\ Nat.Commun.2024,\allowbreak\ Nat.Metab.2023,\allowbreak\ Brain2023,\allowbreak\ Mol.Brain2022,\allowbreak\ CellMetab.2022,\allowbreak\ Exp.Neurobiol.2022,\allowbreak\ Exp.Neurobiol.2021,\allowbreak\ Exp.Neurobiol.2021,\allowbreak\ J.Neurosci.2020,\allowbreak\ Curr.Biol.2019,\allowbreak\ Exp.Neurobiol.2019,\allowbreak\ PNAS2018,\allowbreak\ Nat.Commun.2016
+\end{itemize}
+\item \textbf{Citations:} 1006 $\cdot$ h-index 12 $\cdot$ i10-index 16 \hfill \textcolor{gray}{as of May 2026}
+\item \textcolor{gray}{\footnotesize Suffixes: -w = workshop, -f = findings, -b = blogpost}
 \end{itemize}
 
 \block{achievements}
 
 \begin{itemize}
-\item European Commission, Horizon Europe (HORIZON-MSCA-2025-PF-01-01) \sep Seal of Excellence — MSCA Postdoctoral Fellowships 2025 \sep 2026\\
-Proposal 101286042 — TRACE: Towards Reliable AI through Cognitive Engrams (with Max-Planck-Gesellschaft), total score 89.40\%
-\item Korean Artificial Intelligence Association (JKAIA) \sep Excellent Paper Award \sep 2023\\
-Brain-inspired Lp-Convolution benefits large kernels and aligns better with visual cortex
-\item Application Number: 10-2023-0027219 \sep Patent Application \& Technology Transfer \sep 2023\\
-Device and Method for Classification of Human and Animal Behavior, Patent Contribution=35\%\\Finalized a technology transfer with ACTNOVA Inc.
-\item Korean Society for Brain and Neural Sciences (KSBNS) \sep Best Presentation Award \sep 2022\\
-ABCD-analysis: Mapping animal behavior and differential analysis of kinematic features without selection bias
-\item Korean Society for Molecular and Cellular Biology (KSMCB) \sep Young Investigator Award \sep 2022\\
-Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus
-\item Center for Cognition and Sociality (CCS) Workshop \sep Best Poster Award \sep 2021\\
-Mapping Behavior with DECLARE: Deep Embedded Clustering of Action REpresentation
-\item Korea University - Korea Institute of Science and Technology (KU-KIST) Graduate School \sep Full-Ride Scholarship for Doctoral Studies \sep 2014 - 2022
-\item Korea-Japan Governments Joint Scholarship Program for Science and Engineering Students \sep Full-Ride Scholarship for Bachelor's Studies \sep 2007 - 2012
+\item \textbf{Seal of Excellence — MSCA Postdoctoral Fellowships 2025} \sep European Commission, Horizon Europe (HORIZON-MSCA-2025-PF-01-01) \sep 2026 \textit{Proposal 101286042 — TRACE: Towards Reliable AI through Cognitive Engrams (with Max-Planck-Gesellschaft), total score 89.40\%}
+\item \textbf{Excellent Paper Award} \sep Korean Artificial Intelligence Association (JKAIA) \sep 2023 \textit{Brain-inspired Lp-Convolution benefits large kernels and aligns better with visual cortex}
+\item \textbf{Patent Application \& Technology Transfer} \sep Application Number: 10-2023-0027219 \sep 2023 \textit{Device and Method for Classification of Human and Animal Behavior, Patent Contribution=35\%; Finalized a technology transfer with ACTNOVA Inc.}
+\item \textbf{Best Presentation Award} \sep Korean Society for Brain and Neural Sciences (KSBNS) \sep 2022 \textit{ABCD-analysis: Mapping animal behavior and differential analysis of kinematic features without selection bias}
+\item \textbf{Young Investigator Award} \sep Korean Society for Molecular and Cellular Biology (KSMCB) \sep 2022 \textit{Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus}
+\item \textbf{Best Poster Award} \sep Center for Cognition and Sociality (CCS) Workshop \sep 2021 \textit{Mapping Behavior with DECLARE: Deep Embedded Clustering of Action REpresentation}
 \end{itemize}
 
-\block{organizing experience}
+\block{talks}
 
 \begin{itemize}
-\item Korean Society for Brain and Neural Sciences (KSBNS) Annual Meeting \sep Symposium Organizer: "Minds Meet Machines: Bidirectional Innovations in AI and Neuroscience" \sep 2026
-\item KSBNS \& CJK (China-Japan-Korea) Joint Symposium \sep Symposium Co-Organizer: "Neuroscience-inspired AI: Computational Insights into Biological and Artificial Intelligence" \sep 2025
-\item KAIST-NeuroAI Journal Club \sep Founding Member \sep 2020
+\item \textbf{AI Engram: In Search of Memory Traces in Artificial Neural Networks} \sep Scalable Trustworthy AI (STAI) group - KAIST \sep 2026 {\small \textcolor{gray}{(Invited Seminar, In person, invited by Seong Joon Oh)}}
+\item \textbf{AI Engram: In Search of Memory Traces in Artificial Neural Networks} \sep Max Planck Institute for Software Systems \sep 2026 {\small \textcolor{gray}{(Invited Seminar, In person, invited by Krishna Gummadi)}}
+\item \textbf{AI Engram: In Search of Memory Traces in Artificial Neural Networks} \sep Spark(l)ing Science - Max Planck Institute for Security and Privacy \sep 2026 {\small \textcolor{gray}{(Seminar, In person)}}
+\item \textbf{How neuroscience can benefit AI} \sep KAIST BK21 IBS Symposium - Integrated Neuroscience and Physiology \sep 2025 {\small \textcolor{gray}{(Invited Seminar, In person, invited by Greg Suh)}}
+\item \textbf{Transformer as a Hippocampal Memory Consolidation Model based on NMDAR-inspired Nonlinearity} \sep KSBNS Symposium \sep 2025 {\small \textcolor{gray}{(Invited Seminar, In person)}}
+\item \textbf{Sovereign AI: K-AI as an opportunity} \sep Netzwerk Junge Generation Deutschland-Korea \sep 2025 {\small \textcolor{gray}{(Public Lecture, In person, invited by Muhong Lee)}}
+\item \textbf{Brain-inspired AI} \sep Institute for Basic Science (IBS) \sep 2025 {\small \textcolor{gray}{(Invited Seminar, In person, invited by C. Justin Lee)}}
+\item \textbf{Brain-inspired AI} \sep Korea Brain Research Institute (KBRI) \sep 2025 {\small \textcolor{gray}{(Invited Seminar, In person, invited by Jeongyeon Kim)}}
+\item \textbf{Brain-inspired AI} \sep Gwangju Institute of Science and Technology (GIST) \sep 2025 {\small \textcolor{gray}{(Invited Seminar, In person, invited by Sundong Kim)}}
+\item \textbf{Neuroscience for Artificial Intelligence} \sep MLAI group, Yonsei University \sep 2025 {\small \textcolor{gray}{(Invited Lecture, Offline, invited by Kyungwoo Song)}}
+\item \textbf{Brain-inspired AI} \sep Kyungpook National University (KNU) \sep 2024 {\small \textcolor{gray}{(Invited Seminar, In person, invited by Saekwang Nam)}}
+\item \textbf{SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior} \sep Korea Institute of Ocean Science \& Technology (KIOST) \sep 2024 {\small \textcolor{gray}{(Invited Seminar, In person, invited by Soomee Kim)}}
+\item \textbf{SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior} \sep Korea Brain Research Institute (KBRI) \sep 2024 {\small \textcolor{gray}{(Invited Seminar, In person, invited by Jeongyeon Kim)}}
+\item \textbf{Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity} \sep IBS-CCS Symposium \sep 2023 {\small \textcolor{gray}{(Oral Presentation, In person)}}
+\item \textbf{Memory editing in the brain - Eternal Sunshine of the Spotless Mind} \sep IBS Science in the Cinema Roof \sep 2023 {\small \textcolor{gray}{(Public Lecture, In person)}}
+\item \textbf{From human mind to artificial intelligence - Is ChatGPT a bridge} \sep Reading Festival at Jeonil High School \sep 2023 {\small \textcolor{gray}{(Public Lecture, In person)}}
+\item \textbf{Resolving clustering bias during animal behavior mapping and kinematic profiling} \sep IBS Data Science Group seminar \sep 2022 {\small \textcolor{gray}{(Invited Seminar, Online, invited by Meeyoung Cha)}}
+\item \textbf{Resemblances Between Transformer's Nonlinearity and NMDA Receptor Dynamics} \sep IBS Winter School on AI-Boosted Basic Science \sep 2022 {\small \textcolor{gray}{(Invited Lecture, In person)}}
+\item \textbf{Age-dependent motor coordination analysis by 3D pose-estimation using AVATAR} \sep IBS 2021 2nd Workshop \sep 2021 {\small \textcolor{gray}{(Oral Presentation, In person)}}
+\item \textbf{Backpropagation and the Brain} \sep KAIST-NeuroAI Journal Club \sep 2020 {\small \textcolor{gray}{(Oral Presentation, Hybrid)}}
+\item \textbf{Deep learning with NMDA receptor inspired activation function} \sep IBS 2019 Year-End Workshop \sep 2020 {\small \textcolor{gray}{(Oral Presentation, In person)}}
+\item \textbf{Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior} \sep Korean Society for Molecular and Cellular Biology (KSMCB) \sep 2019 {\small \textcolor{gray}{(Oral Presentation, In person)}}
 \end{itemize}
 
-\block{program committees \& reviewing}
+\block{teaching}
 
 \begin{itemize}
-\item AAAI 2026, AI Alignment Track \sep Program Committee \sep 2026
-\item Machine+Behavior Conference 2026, Harnack House, Berlin \sep Program Committee \sep 2026
-\item International Conference on Learning Representations (ICLR) \sep Reviewer \sep 2026
-\item ICLR Re-Align Workshop \sep Reviewer \sep 2025 - 2026
+\item \textbf{Guest Lecturer} \sep Georgia Tech CSE 8803 BMI "Brain-inspired Machine Intelligence", Fall 2024
+\item \textbf{Guest Lecturer} \sep Ewha Womans University G 18067 "Introduction to System Health", Spring 2026
+\item \textbf{Mentoring} \sep SoHyung Kim (Korea University, Undergraduate Intern), IBS 2020, 6 months \sep Outputs: CVPR2023-w, IJCV2024 (co-author)
+\item \textbf{Mentoring} \sep Hyewon Kim (Eulji University, Undergraduate Intern), IBS 2024, 9 months \sep Outputs: ICLR2024-w (co-author), Exp.Neurobiol.2024 (co-first author)
+\item \textbf{Mentoring} \sep Minsung Kim (Seoul National University, Ph.D. Intern, with Dong-Kyum Kim), MPI-SP 2024, 3 months \sep Outputs: ICLR2025-b, ACL2026 (first author)
+\item \textbf{Mentoring} \sep Jiseon Kim (KAIST, Ph.D. Intern, with Luiz Felipe Vecchietti), MPI-SP 2025, 6 months \sep Outputs: ICLR2025-w, ACL2026-f (first author)
+\item \textbf{Mentoring} \sep Nakyeong Yang (Seoul National University, Ph.D. Intern, with Dong-Kyum Kim), MPI-SP 2025, 3 months \sep Outputs: ICLR2026 (first author)
 \end{itemize}
 
-\block{invited talks}
+\block{community service}
 
 \begin{itemize}
-\item Scalable Trustworthy AI (STAI) group - KAIST \sep AI Engram: In Search of Memory Traces in Artificial Neural Networks \sep 2026
-\item Introduction to System Health - Ewha Womans University \sep AI and Neuroscience \sep 2026
-\item Max Planck Institute for Software Systems \sep AI Engram: In Search of Memory Traces in Artificial Neural Networks \sep 2026
-\item Spark(l)ing Science - Max Planck Institute for Security and Privacy \sep AI Engram: In Search of Memory Traces in Artificial Neural Networks \sep 2026
-\item KAIST BK21 IBS Symposium - Integrated Neuroscience and Physiology \sep How neuroscience can benefit AI \sep 2025
-\item KSBNS Symposium \sep Transformer as a Hippocampal Memory Consolidation Model based on NMDAR-inspired Nonlinearity \sep 2025
-\item Netzwerk Junge Generation Deutschland-Korea \sep Sovereign AI: K-AI as an opportunity \sep 2025
-\item Institute for Basic Science (IBS) \sep Brain-inspired AI \sep 2025
-\item Korea Brain Research Institute (KBRI) \sep Brain-inspired AI \sep 2025
-\item Gwangju Institute of Science and Technology (GIST) \sep Brain-inspired AI \sep 2025
-\item MLAI group, Yonsei University \sep Neuroscience for Artificial Intelligence \sep 2025
-\item Kyungpook National University (KNU) \sep Brain-inspired AI \sep 2024
-\item Korea Institute of Ocean Science \& Technology (KIOST) \sep SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior \sep 2024
-\item Korea Brain Research Institute (KBRI) \sep SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior \sep 2024
-\item IBS-CCS Symposium \sep Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity \sep 2023
-\item IBS Science in the Cinema Roof \sep Memory editing in the brain - Eternal Sunshine of the Spotless Mind \sep 2023
-\item Reading Festival at Jeonil High School \sep From human mind to artificial intelligence - Is ChatGPT a bridge \sep 2023
-\item IBS Data Science Group seminar \sep Resolving clustering bias during animal behavior mapping and kinematic profiling \sep 2022
-\item IBS 2021 2nd Workshop \sep Age-dependent motor coordination analysis by 3D pose-estimation using AVATAR \sep 2021
-\item KAIST-NeuroAI Journal Club \sep Backpropagation and the Brain \sep 2020
-\item IBS 2019 Year-End Workshop \sep Deep learning with NMDA receptor inspired activation function \sep 2020
-\item Korean Society for Molecular and Cellular Biology (KSMCB) \sep Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior \sep 2019
+\item \textbf{Symposium Organizer} \sep KSBNS 2026 Annual Meeting \sep "Minds Meet Machines: Bidirectional Innovations in AI and Neuroscience"
+\item \textbf{Symposium Co-Organizer} \sep KSBNS \& CJK 2025 Joint Symposium \sep "Neuroscience-inspired AI: Computational Insights into Biological and Artificial Intelligence"
+\item \textbf{Program Committee} \sep AAAI 2026, AI Alignment Track
+\item \textbf{Program Committee} \sep Machine+Behavior 2026, Harnack House, Berlin
+\item \textbf{Emergency Reviewer} \sep ICML 2026
+\item \textbf{Reviewer} \sep ICML 2026 Mechanistic Interpretability Workshop
+\item \textbf{Reviewer} \sep ICLR 2026
+\item \textbf{Reviewer} \sep ICLR 2026 Re-Align Workshop
+\item \textbf{Reviewer} \sep ICLR 2025 Re-Align Workshop
+\item \textbf{Founding Member} \sep KAIST-NeuroAI Journal Club, 2020
 \end{itemize}
 
 \block{publications}
 
-\begin{etaremune}
-\item \textbf{J. Kwon*}, D. Kim*, J. Kim*, Y. Kim, W. Kook, M. Cha.\\
-AI Engram: In Search of Memory Traces in Artificial Intelligence.\\
-\textit{International Conference on Machine Learning (Spotlight, top 2.2\%)}, 2026.
-\item M. S. Locatelli, F. Tonucci, \textbf{J. Kwon}, L. F. Vecchietti, B. N. Wijaya, C. Y. Low, V. Almeida, M. Cha.\\
-Textual Supervision Enhances Geospatial Representations in Vision-Language Models.\\
-\textit{International Conference on Machine Learning}, 2026.
-\item J. Kim, \textbf{J. Kwon}, L. F. Vecchietti, W. Dong, J. Kim, M. Cha.\\
-Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions.\\
-\textit{Findings of the 64th Annual Meeting of the Association for Computational Linguistics}, 2026.
-\item M. Kim, D. Kim, \textbf{J. Kwon}, N. Yang, K. Jung, M. Cha.\\
-How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models.\\
-\textit{Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics}, 2026.
-\item S. Kim, \textbf{J. Kwon}.\\
-From Human Cognition to AI Reasoning: Models, Methods, and Applications.\\
-\textit{ICLR HCAIR Workshop}, 2026.
-\item \textbf{J. Kwon*}, S. Kim*, J. Woo, K. Tanaka-Yamamoto, O. James, E. De Schutter, S. Hong, C. J. Lee.\\
-Cerebellar Tonic Inhibition Orchestrates the Maturation of Information Processing and Motor Coordination.\\
-\textit{Experimental \& Molecular Medicine}, 2026.
-\item \textbf{J. Kwon*}, L. F. Vecchietti, S. Park, M. Cha.\\
-Dropouts in Confidence: Moral Uncertainty in Human-LLM Alignment.\\
-\textit{AAAI Conference on Artificial Intelligence}, 2026.
-\item D. Kim, M. Kim, \textbf{J. Kwon}, N. Yang, M. Cha.\\
-Bilinear Relational Structure Fixes Reversal Curse and Enables Consistent Model Editing.\\
-\textit{International Conference on Learning Representations}, 2026.
-\item N. Yang, D. Kim, \textbf{J. Kwon}, M. Kim, K. Jung, M. Cha.\\
-Erase or Hide? Suppressing Spurious Unlearning Neurons for Robust Unlearning.\\
-\textit{International Conference on Learning Representations}, 2026.
-\item M. Kim, \textbf{J. Kwon}, D. Kim, M. Cha.\\
-In Search of the Engram in LLMs: A Neuroscience Perspective on the Memory Functions in AI Models.\\
-\textit{The Fourth Blogpost Track at ICLR 2025}, 2025.
-\item B. Hyeon, J. Shin, J. Lee, W. Kim, \textbf{J. Kwon}, H. Lee, D. Kim, C. Y. Kim, S. Choi, J. Jeong, K. Kim, C. J. Lee, D. Kim, W. D. Heo.\\
-Integrating Artificial Intelligence and Optogenetics for Parkinson's Disease Diagnosis and Therapeutics in Male Mice.\\
-\textit{Nature Communications}, 2025.
-\item J. Kim*, \textbf{J. Kwon*}, L. F. Vecchietti*, A. Oh, M. Cha.\\
-Exploring Persona-dependent LLM Alignment for the Moral Machine Experiment.\\
-\textit{ICLR 2025 Workshop in Bi-Align}, 2025.
-\item \textbf{J. Kwon*}, S. Lim, K. Song, C. J. Lee.\\
-Brain-inspired Lp-Convolution Benefits Large Kernels and Aligns Better with Visual Cortex.\\
-\textit{International Conference on Learning Representations}, 2025.
-\item \textbf{J. Kwon*}, M. Sa, H. Kim, Y. Seong, C. J. Lee.\\
-Egocentric 3D Skeleton Learning in Identity-Aware Deep LSTM Network Encodes Obese-Like Motion Representations.\\
-\textit{ICLR TS4H Workshop}, 2024.
-\item \textbf{J. Kwon*}, S. Lim, K. Song, C. J. Lee.\\
-Brain-inspired Lp-Convolution Benefits Large Kernels and Aligns Better with Visual Cortex.\\
-\textit{ICLR Re-Align Workshop}, 2024.
-\item \textbf{J. Kwon*}, S. Kim, D. Kim, J. Joo, S. Kim, M. Cha, C. J. Lee.\\
-SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior.\\
-\textit{International Journal of Computer Vision}, 2024.
-\item \textbf{J. Kwon*}, M. Sa, H. Kim, Y. Seong, C. J. Lee.\\
-Egocentric 3D Skeleton Learning in a Deep Neural Network Encodes Obese-like Motion Representations.\\
-\textit{Experimental Neurobiology}, 2024.
-\item H. Kang, A. Han, A. Zhang, H. Jeong, W. Koh, J. M. Lee, H. Lee, H. Y. Jo, M. A. Maria-Solano, M. Bhalla, \textbf{J. Kwon}, et al..\\
-GolpHCat (TMEM87A), a Unique Voltage-Dependent Cation Channel in Golgi Apparatus, Contributes to Golgi-pH Maintenance and Hippocampus-Dependent Memory.\\
-\textit{Nature Communications}, 2024.
-\item D. Kim*, \textbf{J. Kwon*}, M. Cha, C. J. Lee.\\
-Transformer as a Hippocampal Memory Consolidation Model Based on NMDAR-Inspired Nonlinearity.\\
-\textit{Advances in Neural Information Processing Systems}, 2023.
-\item M. Sa, E. Yoo, W. Koh, M. G. Park, H. Jang, Y. R. Yang, M. Bhalla, J. Lee, J. Lim, W. Won, \textbf{J. Kwon}, et al..\\
-Hypothalamic GABRA5-Positive Neurons Control Obesity via Astrocytic GABA.\\
-\textit{Nature Metabolism}, 2023.
-\item \textbf{J. Kwon*}, S. Kim, D. Kim, J. Joo, S. Kim, M. Cha, C. J. Lee.\\
-SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior.\\
-\textit{CVPR CV4Animals Workshop}, 2023.
-\item M. Nam, H. Y. Ko, D. Kim, S. Lee, Y. M. Park, S. J. Hyeon, W. Won, J. Chung, S. Y. Kim, H. H. Jo, K. T. Oh, Y. Han, G. Lee, Y. H. Ju, H. Lee, H. Kim, J. Heo, M. Bhalla, K. J. Kim, \textbf{J. Kwon}, et al..\\
-Visualizing Reactive Astrocyte-Neuron Interaction in Alzheimer's Disease Using 11C-Acetate and 18F-FDG.\\
-\textit{Brain}, 2023.
-\item D. Kim, \textbf{J. Kwon}, M. Cha, C. J. Lee.\\
-Transformer Needs NMDA Receptor Nonlinearity for Long-Term Memory.\\
-\textit{NeurIPS Memory in Artificial and Real Intelligence Workshop}, 2022.
-\item D. Kim, J. Kim, W. Jung, J. Park, M. Kim, A. Shin, Y. Jeong, S. Park, G. Shin, Y. W. Lee, \textbf{J. Kwon}, D. Kim.\\
-AVATAR: AI Vision Analysis for Three-Dimensional Action in Real-Time.\\
-\textit{CVPR CV4Animals Workshop}, 2022.
-\item S. Kim, \textbf{J. Kwon}, M. G. Park, C. J. Lee.\\
-Dopamine-Induced Astrocytic Ca2+ Signaling in mPFC is Mediated by MAO-B in Young Mice, but by Dopamine Receptors in Adult Mice.\\
-\textit{Molecular Brain}, 2022.
-\item Y. H. Ju, M. Bhalla, S. J. Hyeon, J. E. Oh, S. Yoo, U. Chae, \textbf{J. Kwon}, W. Koh, J. Lim, Y. M. Park, et al..\\
-Astrocytic Urea Cycle Detoxifies A$\beta$-Derived Ammonia While Impairing Memory in Alzheimer's Disease.\\
-\textit{Cell Metabolism}, 2022.
-\item J. M. Lee, M. Sa, H. An, J. M. J. Kim, \textbf{J. Kwon}, B. Yoon, C. J. Lee.\\
-Generation of Astrocyte-Specific MAOB Conditional Knockout Mouse with Minimal Tonic GABA Inhibition.\\
-\textit{Experimental Neurobiology}, 2022.
-\item \textbf{J. Kwon*}, M. W. Jang, C. J. Lee.\\
-Retina-Attached Slice Recording Reveals Light-Triggered Tonic GABA Signaling in Suprachiasmatic Nucleus.\\
-\textit{Molecular Brain}, 2021.
-\item M. W. Jang, T. Y. Kim, K. Sharma, \textbf{J. Kwon}, E. Yi, C. J. Lee.\\
-A Deafness Associated Protein TMEM43 Interacts with KCNK3 (TASK-1) Two-Pore Domain K+ (K2P) Channel in the Cochlea.\\
-\textit{Experimental Neurobiology}, 2021.
-\item J. Won, H. H. Kazan, \textbf{J. Kwon}, M. Park, M. A. Ergun, S. Ozcan, B. Y. Choi, W. D. Heo, C. J. Lee.\\
-Ultimate COVID-19 Detection Protocol Based on Saliva Sampling and qRT-PCR with Risk Probability Assessment.\\
-\textit{Experimental Neurobiology}, 2021.
-\item K. Han, M. Lee, H. Lim, M. W. Jang, \textbf{J. Kwon}, C. J. Lee, S. Kim, M. Suh.\\
-Excitation-Inhibition Imbalance Leads to Alteration of Neuronal Coherence and Neurovascular Coupling Under Acute Stress.\\
-\textit{Journal of Neuroscience}, 2020.
-\item S. Oh, J. M. Lee, H. Kim, J. Lee, S. Han, J. Y. Bae, G. Hong, W. Koh, \textbf{J. Kwon}, E. Hwang, et al..\\
-Ultrasonic Neuromodulation via Astrocytic TRPA1.\\
-\textit{Current Biology}, 2019.
-\item Y. Han, \textbf{J. Kwon}, J. Won, H. An, M. W. Jang, J. Woo, J. S. Lee, M. G. Park, B. Yoon, S. E. Lee, et al..\\
-Tweety-Homolog (Ttyh) Family Encodes the Pore-Forming Subunits of the Swelling-Dependent Volume-Regulated Anion Channel (VRACswell) in the Brain.\\
-\textit{Experimental Neurobiology}, 2019.
-\item J. Woo, J. O. Min, D. Kang, Y. S. Kim, G. H. Jung, H. J. Park, S. Kim, H. An, \textbf{J. Kwon}, J. Kim, et al..\\
-Control of Motor Coordination by Astrocytic Tonic GABA Release Through Modulation of Excitation/Inhibition Balance in Cerebellum.\\
-\textit{Proceedings of the National Academy of Sciences}, 2018.
-\item \textbf{J. Kwon*}, M. G. Park, S. E. Lee, C. J. Lee.\\
-Development of a Low-Cost, Comprehensive Recording System for Circadian Rhythm Behavior.\\
-\textit{Experimental Neurobiology}, 2018.
-\item \textbf{J. Kwon*}, H. An, M. Sa, J. Won, J. I. Shin, C. J. Lee.\\
-Orai1 and Orai3 in Combination with Stim1 Mediate the Majority of Store-Operated Calcium Entry in Astrocytes.\\
-\textit{Experimental Neurobiology}, 2017.
-\item G. E. Ha, J. Lee, H. Kwak, K. Song, \textbf{J. Kwon}, S. Jung, J. Hong, G. Chang, E. M. Hwang, H. Shin, et al..\\
-The Ca2+-Activated Chloride Channel Anoctamin-2 Mediates Spike-Frequency Adaptation and Regulates Sensory Transmission in Thalamocortical Neurons.\\
-\textit{Nature Communications}, 2016.
-\end{etaremune}
+{\small \textcolor{gray}{\textcolor{accent}{\checkmark}\ selected publication \quad * first author \quad \# corresponding author}}
+
+\begin{itemize}[leftmargin=2em,label={},itemsep=0.3em]\sloppy
+\item[\textcolor{accent}{\checkmark}] \textcolor{accent}{\textbf{J. Kwon*}}, D. Kim*, J. Kim*, Y. Kim, W. Kook, M. Cha. AI Engram: In Search of Memory Traces in Artificial Intelligence. \textit{International Conference on Machine Learning}, 2026 (Spotlight, top 2.2\%).
+\item[] M. S. Locatelli, F. Tonucci, \textcolor{accent}{\textbf{J. Kwon}}, L. F. Vecchietti, B. N. Wijaya, C. Y. Low, V. Almeida, M. Cha. Textual Supervision Enhances Geospatial Representations in Vision-Language Models. \textit{International Conference on Machine Learning}, 2026 (Acceptance Rate=26.6\%).
+\item[\textcolor{accent}{\checkmark}] J. Kim, \textcolor{accent}{\textbf{J. Kwon\#}}, L. F. Vecchietti\#, W. Dong, J. Kim, M. Cha\#. Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions. \textit{Findings of the 64th Annual Meeting of the Association for Computational Linguistics}, 2026 (Acceptance Rate=18\%).
+\item[] M. Kim, D. Kim, \textcolor{accent}{\textbf{J. Kwon}}, N. Yang, K. Jung, M. Cha. How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models. \textit{Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics}, 2026 (Acceptance Rate=19\%).
+\item[] S. Kim, \textcolor{accent}{\textbf{J. Kwon}}. From Human Cognition to AI Reasoning: Models, Methods, and Applications. \textit{ICLR HCAIR Workshop}, 2026.
+\item[\textcolor{accent}{\checkmark}] \textcolor{accent}{\textbf{J. Kwon*}}, S. Kim*, J. Woo, K. Tanaka-Yamamoto, O. James, E. De Schutter, S. Hong, C. J. Lee. Cerebellar Tonic Inhibition Orchestrates the Maturation of Information Processing and Motor Coordination. \textit{Experimental \& Molecular Medicine}, 2026 (5-year IF=14.2, 2024).
+\item[\textcolor{accent}{\checkmark}] \textcolor{accent}{\textbf{J. Kwon*}}, L. F. Vecchietti, S. Park, M. Cha. Dropouts in Confidence: Moral Uncertainty in Human-LLM Alignment. \textit{Proceedings of the AAAI Conference on Artificial Intelligence}, 2026 (AI Alignment Track, Acceptance Rate=22.65\%).
+\item[] D. Kim, M. Kim, \textcolor{accent}{\textbf{J. Kwon}}, N. Yang, M. Cha. Bilinear Relational Structure Fixes Reversal Curse and Enables Consistent Model Editing. \textit{International Conference on Learning Representations}, 2026 (Acceptance Rate=28\%).
+\item[] N. Yang, D. Kim, \textcolor{accent}{\textbf{J. Kwon}}, M. Kim, K. Jung, M. Cha. Erase or Hide? Suppressing Spurious Unlearning Neurons for Robust Unlearning. \textit{International Conference on Learning Representations}, 2026 (Acceptance Rate=28\%).
+\item[] M. Kim, \textcolor{accent}{\textbf{J. Kwon}}, D. Kim, M. Cha. In Search of the Engram in LLMs: A Neuroscience Perspective on the Memory Functions in AI Models. \textit{ICLR Blogposts Track}, 2025.
+\item[] B. Hyeon, J. Shin, J. Lee, W. Kim, \textcolor{accent}{\textbf{J. Kwon}}, H. Lee, D. Kim, C. Y. Kim, S. Choi, J. Jeong, K. Kim, C. J. Lee, D. Kim, W. D. Heo. Integrating Artificial Intelligence and Optogenetics for Parkinson's Disease Diagnosis and Therapeutics in Male Mice. \textit{Nature Communications}, 2025.
+\item[] J. Kim*, \textcolor{accent}{\textbf{J. Kwon*}}, L. F. Vecchietti*, A. Oh, M. Cha. Exploring Persona-dependent LLM Alignment for the Moral Machine Experiment. \textit{ICLR Bi-Align Workshop}, 2025.
+\item[\textcolor{accent}{\checkmark}] \textcolor{accent}{\textbf{J. Kwon*}}, S. Lim, K. Song, C. J. Lee. Brain-inspired Lp-Convolution Benefits Large Kernels and Aligns Better with Visual Cortex. \textit{International Conference on Learning Representations}, 2025 (Acceptance Rate=32.08\%).
+\item[] \textcolor{accent}{\textbf{J. Kwon*}}, M. Sa, H. Kim, Y. Seong, C. J. Lee. Egocentric 3D Skeleton Learning in Identity-Aware Deep LSTM Network Encodes Obese-Like Motion Representations. \textit{ICLR TS4H Workshop}, 2024.
+\item[] \textcolor{accent}{\textbf{J. Kwon*}}, S. Lim, K. Song, C. J. Lee. Brain-inspired Lp-Convolution Benefits Large Kernels and Aligns Better with Visual Cortex. \textit{ICLR Re-Align Workshop}, 2024.
+\item[\textcolor{accent}{\checkmark}] \textcolor{accent}{\textbf{J. Kwon*}}, S. Kim, D. Kim, J. Joo, S. Kim, M. Cha, C. J. Lee. SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior. \textit{International Journal of Computer Vision}, 2024 (5-year IF=15.5, 2024).
+\item[\textcolor{accent}{\checkmark}] \textcolor{accent}{\textbf{J. Kwon*}}, M. Sa, H. Kim, Y. Seong, C. J. Lee. Egocentric 3D Skeleton Learning in a Deep Neural Network Encodes Obese-like Motion Representations. \textit{Experimental Neurobiology}, 2024 (Featured on the cover).
+\item[] H. Kang, A. Han, A. Zhang, H. Jeong, W. Koh, J. M. Lee, H. Lee, H. Y. Jo, M. A. Maria-Solano, M. Bhalla, \textcolor{accent}{\textbf{J. Kwon}}, et al.. GolpHCat (TMEM87A), a Unique Voltage-Dependent Cation Channel in Golgi Apparatus, Contributes to Golgi-pH Maintenance and Hippocampus-Dependent Memory. \textit{Nature Communications}, 2024.
+\item[\textcolor{accent}{\checkmark}] D. Kim*, \textcolor{accent}{\textbf{J. Kwon*}}, M. Cha, C. J. Lee. Transformer as a Hippocampal Memory Consolidation Model Based on NMDAR-Inspired Nonlinearity. \textit{Advances in Neural Information Processing Systems}, 2023 (Acceptance Rate=26.1\%).
+\item[] M. Sa, E. Yoo, W. Koh, M. G. Park, H. Jang, Y. R. Yang, M. Bhalla, J. Lee, J. Lim, W. Won, \textcolor{accent}{\textbf{J. Kwon}}, et al.. Hypothalamic GABRA5-Positive Neurons Control Obesity via Astrocytic GABA. \textit{Nature Metabolism}, 2023.
+\item[] \textcolor{accent}{\textbf{J. Kwon*}}, S. Kim, D. Kim, J. Joo, S. Kim, M. Cha, C. J. Lee. SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior. \textit{CVPR CV4Animals Workshop}, 2023.
+\item[] M. Nam, H. Y. Ko, D. Kim, S. Lee, Y. M. Park, S. J. Hyeon, W. Won, J. Chung, S. Y. Kim, H. H. Jo, K. T. Oh, Y. Han, G. Lee, Y. H. Ju, H. Lee, H. Kim, J. Heo, M. Bhalla, K. J. Kim, \textcolor{accent}{\textbf{J. Kwon}}, et al.. Visualizing Reactive Astrocyte-Neuron Interaction in Alzheimer's Disease Using 11C-Acetate and 18F-FDG. \textit{Brain}, 2023.
+\item[] D. Kim, \textcolor{accent}{\textbf{J. Kwon}}, M. Cha, C. J. Lee. Transformer Needs NMDA Receptor Nonlinearity for Long-Term Memory. \textit{NeurIPS MemARI Workshop}, 2022.
+\item[] D. Kim, J. Kim, W. Jung, J. Park, M. Kim, A. Shin, Y. Jeong, S. Park, G. Shin, Y. W. Lee, \textcolor{accent}{\textbf{J. Kwon}}, D. Kim. AVATAR: AI Vision Analysis for Three-Dimensional Action in Real-Time. \textit{CVPR CV4Animals Workshop}, 2022.
+\item[] S. Kim, \textcolor{accent}{\textbf{J. Kwon}}, M. G. Park, C. J. Lee. Dopamine-Induced Astrocytic Ca2+ Signaling in mPFC is Mediated by MAO-B in Young Mice, but by Dopamine Receptors in Adult Mice. \textit{Molecular Brain}, 2022.
+\item[] Y. H. Ju, M. Bhalla, S. J. Hyeon, J. E. Oh, S. Yoo, U. Chae, \textcolor{accent}{\textbf{J. Kwon}}, W. Koh, J. Lim, Y. M. Park, et al.. Astrocytic Urea Cycle Detoxifies A$\beta$-Derived Ammonia While Impairing Memory in Alzheimer's Disease. \textit{Cell Metabolism}, 2022.
+\item[] J. M. Lee, M. Sa, H. An, J. M. J. Kim, \textcolor{accent}{\textbf{J. Kwon}}, B. Yoon, C. J. Lee. Generation of Astrocyte-Specific MAOB Conditional Knockout Mouse with Minimal Tonic GABA Inhibition. \textit{Experimental Neurobiology}, 2022.
+\item[\textcolor{accent}{\checkmark}] \textcolor{accent}{\textbf{J. Kwon*}}, M. W. Jang, C. J. Lee. Retina-Attached Slice Recording Reveals Light-Triggered Tonic GABA Signaling in Suprachiasmatic Nucleus. \textit{Molecular Brain}, 2021.
+\item[] M. W. Jang, T. Y. Kim, K. Sharma, \textcolor{accent}{\textbf{J. Kwon}}, E. Yi, C. J. Lee. A Deafness Associated Protein TMEM43 Interacts with KCNK3 (TASK-1) Two-Pore Domain K+ (K2P) Channel in the Cochlea. \textit{Experimental Neurobiology}, 2021.
+\item[] J. Won, H. H. Kazan, \textcolor{accent}{\textbf{J. Kwon}}, M. Park, M. A. Ergun, S. Ozcan, B. Y. Choi, W. D. Heo, C. J. Lee. Ultimate COVID-19 Detection Protocol Based on Saliva Sampling and qRT-PCR with Risk Probability Assessment. \textit{Experimental Neurobiology}, 2021.
+\item[] K. Han, M. Lee, H. Lim, M. W. Jang, \textcolor{accent}{\textbf{J. Kwon}}, C. J. Lee, S. Kim, M. Suh. Excitation-Inhibition Imbalance Leads to Alteration of Neuronal Coherence and Neurovascular Coupling Under Acute Stress. \textit{Journal of Neuroscience}, 2020.
+\item[] S. Oh, J. M. Lee, H. Kim, J. Lee, S. Han, J. Y. Bae, G. Hong, W. Koh, \textcolor{accent}{\textbf{J. Kwon}}, E. Hwang, et al.. Ultrasonic Neuromodulation via Astrocytic TRPA1. \textit{Current Biology}, 2019.
+\item[] Y. Han, \textcolor{accent}{\textbf{J. Kwon}}, J. Won, H. An, M. W. Jang, J. Woo, J. S. Lee, M. G. Park, B. Yoon, S. E. Lee, et al.. Tweety-Homolog (Ttyh) Family Encodes the Pore-Forming Subunits of the Swelling-Dependent Volume-Regulated Anion Channel (VRACswell) in the Brain. \textit{Experimental Neurobiology}, 2019.
+\item[] J. Woo, J. O. Min, D. Kang, Y. S. Kim, G. H. Jung, H. J. Park, S. Kim, H. An, \textcolor{accent}{\textbf{J. Kwon}}, J. Kim, et al.. Control of Motor Coordination by Astrocytic Tonic GABA Release Through Modulation of Excitation/Inhibition Balance in Cerebellum. \textit{Proceedings of the National Academy of Sciences}, 2018.
+\item[] \textcolor{accent}{\textbf{J. Kwon*}}, M. G. Park, S. E. Lee, C. J. Lee. Development of a Low-Cost, Comprehensive Recording System for Circadian Rhythm Behavior. \textit{Experimental Neurobiology}, 2018.
+\item[] \textcolor{accent}{\textbf{J. Kwon*}}, H. An, M. Sa, J. Won, J. I. Shin, C. J. Lee. Orai1 and Orai3 in Combination with Stim1 Mediate the Majority of Store-Operated Calcium Entry in Astrocytes. \textit{Experimental Neurobiology}, 2017.
+\item[] G. E. Ha, J. Lee, H. Kwak, K. Song, \textcolor{accent}{\textbf{J. Kwon}}, S. Jung, J. Hong, G. Chang, E. M. Hwang, H. Shin, et al.. The Ca2+-Activated Chloride Channel Anoctamin-2 Mediates Spike-Frequency Adaptation and Regulates Sensory Transmission in Thalamocortical Neurons. \textit{Nature Communications}, 2016.
+\end{itemize}
 
 
 \end{document}

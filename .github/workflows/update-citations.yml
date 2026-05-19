@@ -85,6 +85,20 @@ jobs:
             echo "ℹ️ _data/citations.yml was not changed." >> $GITHUB_STEP_SUMMARY
           fi
 
+      - name: Run scholar stats update script
+        shell: bash
+        run: |
+          set +e
+          echo "🚀 Running aggregate scholar stats update..."
+          timeout 90 python bin/update_scholar_stats.py
+          status=$?
+          if [ $status -eq 0 ]; then
+            echo "✅ Scholar stats update succeeded." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ Scholar stats update failed (exit $status); keeping previous file." >> $GITHUB_STEP_SUMMARY
+          fi
+          set -e
+
       - name: Configure Git
         run: |
           git config --local user.email "actions@github.com"
@@ -93,7 +107,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git add _data/citations.yml
+          git add _data/citations.yml _data/scholar_stats.yml
           git diff --staged --quiet || (
             echo "📤 Committing and pushing changes..."
             git commit -m "Update Google Scholar citations"
