@@ -6,11 +6,9 @@
       {%- if entry.abbr -%}
         {% assign conf_types = 'inproceedings,incollection' | split: ',' %}
         {% if conf_types contains entry.type %}
-          {% assign badge_color = site.publication_badge_color_conference | default: '#2c4767' %}
-        {% elsif entry.type == 'article' %}
-          {% assign badge_color = site.publication_badge_color_journal | default: '#7a3b3b' %}
+          {% assign badge_color = site.publication_badge_color_conference | default: '#3d5a80' %}
         {% else %}
-          {% assign badge_color = site.publication_badge_color_other | default: '#5a6268' %}
+          {% assign badge_color = site.publication_badge_color_journal | default: '#7a3b3b' %}
         {% endif %}
         {% assign venue_style = badge_color | prepend: 'style="background-color:' | append: '"' %}
         <abbr class="badge rounded w-100" {{ venue_style }}>
