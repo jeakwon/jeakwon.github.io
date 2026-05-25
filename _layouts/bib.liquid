@@ -184,6 +184,11 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {% if entry.highlight %}
+      <div class="periodical">
+        <small class="text-muted">{{ entry.highlight | strip }}</small>
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
