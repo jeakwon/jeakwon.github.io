@@ -323,6 +323,11 @@ more_authors_animation_delay: 10 # more authors are revealed on click using anim
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: true
 
+# Publication badge colors mapped by bibtex entry type (overrides per-venue colors in _data/venues.yml).
+publication_badge_color_conference: "#2c4767" # @inproceedings, @incollection
+publication_badge_color_journal: "#7a3b3b" # @article
+publication_badge_color_other: "#5a6268" # everything else
+
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
 # -----------------------------------------------------------------------------
