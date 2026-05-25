@@ -1,67 +1,67 @@
 "EMM":
   url: https://www.nature.com/emm/
-  color: "#1F3A68"
+  color: "#d84315"
 
 "AAAI":
   url: https://aaai.org/
-  color: "#1F3A68"
+  color: "#003366"
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#1F3A68"
+  color: "#412991"
 
 "ICLR-W":
   url: https://iclr.cc/
-  color: "#1F3A68"
+  color: "#7e57c2"
 
 "NeurIPS":
   url: https://neurips.cc/
-  color: "#1F3A68"
+  color: "#8B0000"
 
 "NeurIPS-W":
   url: https://neurips.cc/
-  color: "#1F3A68"
+  color: "#c62828"
 
 "CVPR-W":
   url: https://cvpr.thecvf.com/
-  color: "#1F3A68"
+  color: "#1a5276"
 
 "IJCV":
   url: https://www.springer.com/journal/11263
-  color: "#1F3A68"
+  color: "#e65100"
 
 "Nat. Commun.":
   url: https://www.nature.com/ncomms/
-  color: "#1F3A68"
+  color: "#c62828"
 
 "Nat. Metab.":
   url: https://www.nature.com/natmetab/
-  color: "#1F3A68"
+  color: "#ad1457"
 
 "Cell Metab.":
   url: https://www.cell.com/cell-metabolism/
-  color: "#1F3A68"
+  color: "#1565c0"
 
 "PNAS":
   url: https://www.pnas.org/
-  color: "#1F3A68"
+  color: "#004d40"
 
 "Brain":
   url: https://academic.oup.com/brain
-  color: "#1F3A68"
+  color: "#6a1b9a"
 
 "J. Neurosci.":
   url: https://www.jneurosci.org/
-  color: "#1F3A68"
+  color: "#0d47a1"
 
 "Curr. Biol.":
   url: https://www.cell.com/current-biology/
-  color: "#1F3A68"
+  color: "#00695c"
 
 "Mol. Brain":
   url: https://molecularbrain.biomedcentral.com/
-  color: "#1F3A68"
+  color: "#2e7d32"
 
 "Exp. Neurobiol.":
   url: https://www.en-journal.org/
-  color: "#1F3A68"
+  color: "#546e7a"
