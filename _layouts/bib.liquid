@@ -4,22 +4,26 @@
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
-        {% assign conf_types = 'inproceedings,incollection' | split: ',' %}
-        {% if conf_types contains entry.type %}
-          {% assign badge_color = site.publication_badge_color_conference | default: '#2c4767' %}
-        {% elsif entry.type == 'article' %}
-          {% assign badge_color = site.publication_badge_color_journal | default: '#7a3b3b' %}
+        {%- if site.data.venues[entry.abbr] -%}
+          {% assign venue_style = null %}
+          {% if site.data.venues[entry.abbr].color != blank %}
+            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+          {%- endif -%}
+          <abbr
+            class="badge rounded w-100"
+            {% if venue_style %}
+              {{ venue_style }}
+            {% endif -%}
+          >
+            {% if site.data.venues[entry.abbr].url %}
+              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+            {% else %}
+              <div>{{- entry.abbr -}}</div>
+            {% endif %}
+          </abbr>
         {% else %}
-          {% assign badge_color = site.publication_badge_color_other | default: '#5a6268' %}
+          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
-        {% assign venue_style = badge_color | prepend: 'style="background-color:' | append: '"' %}
-        <abbr class="badge rounded w-100" {{ venue_style }}>
-          {% if site.data.venues[entry.abbr].url %}
-            <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
-          {% else %}
-            <div>{{- entry.abbr -}}</div>
-          {% endif %}
-        </abbr>
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
