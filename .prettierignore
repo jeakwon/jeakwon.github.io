@@ -15,8 +15,6 @@ _data/citations.yml
 _data/scholar_stats.yml
 # CV data file has raw LaTeX blocks; prettier formatting interferes
 _data/cv.yml
-# bib.liquid edited manually; skip prettier to keep CI green
-_layouts/bib.liquid
 # Skip prose markdown: formatting noise outweighs value for a single-author blog
 _posts/**/*.md
 _pages/**/*.md
