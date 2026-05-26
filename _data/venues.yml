@@ -1,4 +1,4 @@
-"EMM":
+"Exp. Mol. Med.":
   url: https://www.nature.com/emm/
   color: "#d84315"
 
@@ -6,25 +6,41 @@
   url: https://aaai.org/
   color: "#003366"
 
+"ICML":
+  url: https://icml.cc/
+  color: "#1976d2"
+
 "ICLR":
   url: https://iclr.cc/
   color: "#412991"
 
-"ICLR-W":
+"ICLR-Workshop":
   url: https://iclr.cc/
   color: "#7e57c2"
+
+"ICLR-Blogpost":
+  url: https://iclr.cc/
+  color: "#9575cd"
 
 "NeurIPS":
   url: https://neurips.cc/
   color: "#8B0000"
 
-"NeurIPS-W":
+"NeurIPS-Workshop":
   url: https://neurips.cc/
   color: "#c62828"
 
-"CVPR-W":
+"CVPR-Workshop":
   url: https://cvpr.thecvf.com/
   color: "#1a5276"
+
+"ACL":
+  url: https://aclweb.org/
+  color: "#1b5e20"
+
+"ACL-Findings":
+  url: https://aclweb.org/
+  color: "#388e3c"
 
 "IJCV":
   url: https://www.springer.com/journal/11263
