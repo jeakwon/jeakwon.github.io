@@ -173,9 +173,11 @@ def format_author_list(author_string: str) -> str:
         if is_corresponding:
             short += "\\#"
 
-        # Bold self with accent color
+        # Bold self with accent color; underline if main author (first or corresponding)
         if SELF_LAST_NAME in last:
             short = f"\\textcolor{{accent}}{{\\textbf{{{short}}}}}"
+            if is_first or is_corresponding:
+                short = f"\\underline{{{short}}}"
 
         formatted.append(short)
 
