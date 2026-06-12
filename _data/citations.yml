@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-12'
 papers:
   6I0mg_EAAAAJ:2osOgNQ5qMEC:
     citations: 65
@@ -34,7 +34,7 @@ papers:
     title: Bilinear representation mitigates reversal curse and enables consistent model editing
     year: '2026'
   6I0mg_EAAAAJ:IjCSPb-OGe4C:
-    citations: 121
+    citations: 122
     title: Control of motor coordination by astrocytic tonic GABA release through modulation of excitation/inhibition balance in cerebellum
     year: '2018'
   6I0mg_EAAAAJ:L8Ckcad2t8MC:
@@ -74,15 +74,15 @@ papers:
     title: "Integrating artificial intelligence and optogenetics for Parkinson\u2019s disease diagnosis and therapeutics in male mice"
     year: '2025'
   6I0mg_EAAAAJ:Y0pCki6q_DkC:
-    citations: 12
+    citations: 11
     title: A deafness associated protein TMEM43 interacts with KCNK3 (TASK-1) two-pore domain K+ (K2P) channel in the cochlea
     year: '2021'
   6I0mg_EAAAAJ:ZeXyd9-uunAC:
     citations: 0
     title: Textual Supervision Enhances Geospatial Representations in Vision-Language Models
-    year: Unknown Year
+    year: '2026'
   6I0mg_EAAAAJ:Zph67rFs4hoC:
-    citations: 12
+    citations: 13
     title: GolpHCat (TMEM87A), a unique voltage-dependent cation channel in Golgi apparatus, contributes to Golgi-pH maintenance and hippocampus-dependent memory
     year: '2024'
   6I0mg_EAAAAJ:_FxGoFyzp5QC:
@@ -102,7 +102,7 @@ papers:
     title: Training Dynamics of Parametric and In-Context Knowledge Utilization in Language Models
     year: '2025'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 147
+    citations: 148
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:mVmsd5A6BfQC:
