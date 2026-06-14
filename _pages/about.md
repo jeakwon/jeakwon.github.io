@@ -27,7 +27,7 @@ latest_posts:
 ---
 
 
-I am a postdoctoral researcher at the [Max Planck Institute for Security and Privacy (MPI-SP)](https://www.mpi-sp.org/). I work on making frontier models **interpretable, editable, and aligned**.
+I work on making frontier models **interpretable, editable, and aligned**.
 
 **My core thesis:** model capability is getting cheaper fast, but our ability to locate where knowledge lives inside a model, and to safely edit, erase, and align it, lags far behind. I attack this gap by importing methods from neuroscience, where I spent years tracing the physical substrate of memory (the engram), into LLM internals.
 
