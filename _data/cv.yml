@@ -10,7 +10,7 @@
     - name: Email
       value: onlytojay@gmail.com
 
-- title: Research Areas
+- title: Research Statement
   type: list
   pdf_style: paragraph
   contents:
@@ -18,6 +18,9 @@
     - "<b>Trustworthy AI</b>: AI Interpretability (ICML2026 Oral), AI Alignment (AAAI2026, ACL2026-f)"
   pdf_paragraph: |
     My research spans two areas: NeuroAI and Trustworthy AI. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI} ({\small \textcolor{gray}{NeurIPS2023, ICLR2025}}), translating brain mechanisms into model architectures, and \textit{AI for Neuroscience} ({\small \textcolor{gray}{IJCV2024, Exp.Mol.Med.2026}}), applying ML to behavioral and neural data. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability} ({\small \textcolor{gray}{ICML2026 Oral}}), probing memory traces in LLMs, and \textit{AI Alignment} ({\small \textcolor{gray}{AAAI2026, ACL2026-f}}), studying human-LLM decision alignment.
+
+- title: Publication Summary
+  type: publication_summary
 
 - title: Professional Experience
   type: time_table
@@ -51,9 +54,6 @@
       year: 2008 - 2012
       description:
         - "Full-Ride Scholarship, Korea-Japan Governments Joint Scholarship Program"
-
-- title: Publication Summary
-  type: publication_summary
 
 - title: Achievements
   type: time_table
