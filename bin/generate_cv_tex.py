@@ -272,11 +272,12 @@ def _format_stats_date(raw: str) -> str:
 
 # Theme axis for Publication Summary regrouping.
 # Primary theme = first comma-separated value in bib `theme={...}`.
-_THEME_ORDER = ["interpretability", "alignment", "neuroai"]
+_THEME_ORDER = ["interpretability", "alignment", "neuroai", "neuroscience"]
 _THEME_LABEL = {
     "interpretability": "AI Interpretability \\& Editing",
     "alignment": "AI Alignment",
     "neuroai": "NeuroAI",
+    "neuroscience": "Neuroscience",
 }
 
 
@@ -291,16 +292,16 @@ def _primary_theme(entry: dict) -> str | None:
 def render_publication_summary(entries: list, stats: dict | None) -> str:
     """Render aggregate citation metrics + research-theme breakdown.
     Themes come from the `theme` field in papers.bib (first value = primary).
-    Within each theme, split by main author (first/corresponding) vs co-author."""
+    Within each theme, main-author entries (first or corresponding) are
+    underlined; co-author entries are rendered plain. Main entries are
+    listed before co-author entries within a theme."""
 
     def _impact_key(e: dict) -> tuple:
         abbr = e.get("abbr", "")
         has_suffix = any(k in abbr for k in _SUFFIX_MAP)
         return (has_suffix, -int(e.get("year", "0") or 0))
 
-    buckets: dict[str, dict[str, list]] = {
-        t: {"main": [], "co": []} for t in _THEME_ORDER
-    }
+    buckets: dict[str, list[tuple[str, bool]]] = {t: [] for t in _THEME_ORDER}
     sorted_entries = sorted(entries, key=_impact_key)
     for e in sorted_entries:
         if SELF_LAST_NAME not in e.get("author", ""):
@@ -312,29 +313,28 @@ def render_publication_summary(entries: list, stats: dict | None) -> str:
         if not label:
             continue
         is_main = _self_is_first(e.get("author", "")) or _self_is_corresponding(e)
-        buckets[theme]["main" if is_main else "co"].append(label)
+        buckets[theme].append((label, is_main))
 
     lines = [
         "\\block{publication summary}",
         "",
-        "\\begin{itemize}[itemsep=0.25em]",
+        "\\begin{itemize}[itemsep=0.25em]\\sloppy",
     ]
 
-    def _sub_line(label: str, items: list) -> str:
-        rendered = ",\\allowbreak\\ ".join(escape_latex(it) for it in items)
-        return f"\\item \\textit{{{label}}} ({len(items)}): {rendered}"
-
     for theme in _THEME_ORDER:
-        main, co = buckets[theme]["main"], buckets[theme]["co"]
-        if not (main or co):
+        items = buckets[theme]
+        if not items:
             continue
-        lines.append(f"\\item \\textbf{{{_THEME_LABEL[theme]}}}")
-        lines.append("\\begin{itemize}\\sloppy")
-        if main:
-            lines.append(_sub_line("main author", main))
-        if co:
-            lines.append(_sub_line("co-author", co))
-        lines.append("\\end{itemize}")
+        # Main author entries first, co-author after; impact order preserved within each group.
+        items.sort(key=lambda x: 0 if x[1] else 1)
+        rendered = []
+        for label, is_main in items:
+            esc = escape_latex(label)
+            rendered.append(f"\\underline{{{esc}}}" if is_main else esc)
+        joined = ",\\allowbreak\\ ".join(rendered)
+        lines.append(
+            f"\\item \\textbf{{{_THEME_LABEL[theme]}}} ({len(items)}): {joined}"
+        )
 
     # --- Citations line ---
     if stats and "stats" in stats:
@@ -350,7 +350,7 @@ def render_publication_summary(entries: list, stats: dict | None) -> str:
         lines.append(f"\\item {cite_line}")
 
     lines.append(
-        "\\item \\textcolor{gray}{\\footnotesize Suffixes: -w = workshop, -f = findings, -b = blogpost}"
+        "\\item \\textcolor{gray}{\\footnotesize \\underline{Underlined} = main author (first or corresponding). Suffixes: -w = workshop, -f = findings, -b = blogpost.}"
     )
     lines.append("\\end{itemize}")
     return "\n".join(lines)
