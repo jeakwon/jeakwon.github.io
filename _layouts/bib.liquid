@@ -148,13 +148,24 @@
       {% endif %}
     </div>
 
-    <!-- Venue: abbr + year + (highlight) -->
+    <!-- Venue: full journal/booktitle + year + (highlight) -->
+    {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+    {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+    {% if entry.type == 'article' %}
+      {% capture venue_full %}<em>{{ entry.journal }}</em>{% endcapture %}
+    {% elsif proceedings contains entry.type %}
+      {% capture venue_full %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+    {% elsif thesis contains entry.type %}
+      {% capture venue_full %}<em>{{ entry.school }}</em>{% endcapture %}
+    {% else %}
+      {% capture venue_full %}{% endcapture %}
+    {% endif %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
     <div class="periodical">
-      <em>{{ entry.abbr }}</em>{% if entry.year %} {{ entry.year }}{% endif %}{% if entry.highlight %} <small class="text-muted">({{ entry.highlight | strip }})</small>{% endif %}
+      {{ venue_full | strip }}{% if entry.year %}, {{ entry.year }}{% endif %}{% if entry.highlight %} <small class="text-muted">({{ entry.highlight | strip }})</small>{% endif %}
     </div>
     {% if entry.note %}
       <div class="periodical">
