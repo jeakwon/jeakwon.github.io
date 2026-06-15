@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-15'
 papers:
   6I0mg_EAAAAJ:2osOgNQ5qMEC:
     citations: 65
@@ -34,7 +34,7 @@ papers:
     title: Bilinear representation mitigates reversal curse and enables consistent model editing
     year: '2026'
   6I0mg_EAAAAJ:IjCSPb-OGe4C:
-    citations: 122
+    citations: 121
     title: Control of motor coordination by astrocytic tonic GABA release through modulation of excitation/inhibition balance in cerebellum
     year: '2018'
   6I0mg_EAAAAJ:L8Ckcad2t8MC:
@@ -74,7 +74,7 @@ papers:
     title: "Integrating artificial intelligence and optogenetics for Parkinson\u2019s disease diagnosis and therapeutics in male mice"
     year: '2025'
   6I0mg_EAAAAJ:Y0pCki6q_DkC:
-    citations: 11
+    citations: 12
     title: A deafness associated protein TMEM43 interacts with KCNK3 (TASK-1) two-pore domain K+ (K2P) channel in the cochlea
     year: '2021'
   6I0mg_EAAAAJ:ZeXyd9-uunAC:
@@ -94,7 +94,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 289
+    citations: 287
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
