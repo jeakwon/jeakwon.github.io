@@ -14,13 +14,24 @@
   type: list
   pdf_style: paragraph
   contents:
+    - "<b>Trustworthy AI</b>: AI Interpretability (ICML2026 Oral, ICML2026 MI-w), AI Steerability (ICLR2026, ICLR2026), AI Alignment (AAAI2026, ACL2026-f)"
     - "<b>NeuroAI</b>: Neuroscience for AI (NeurIPS2023, ICLR2025), AI for Neuroscience (IJCV2024, Exp.Mol.Med.2026)"
-    - "<b>Trustworthy AI</b>: AI Interpretability (ICML2026 Oral), AI Alignment (AAAI2026, ACL2026-f)"
   pdf_paragraph: |
-    My research spans two areas: NeuroAI and Trustworthy AI. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI} ({\small \textcolor{gray}{NeurIPS2023, ICLR2025}}), translating brain mechanisms into model architectures, and \textit{AI for Neuroscience} ({\small \textcolor{gray}{IJCV2024, Exp.Mol.Med.2026}}), applying ML to behavioral and neural data. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability} ({\small \textcolor{gray}{ICML2026 Oral}}), probing memory traces in LLMs, and \textit{AI Alignment} ({\small \textcolor{gray}{AAAI2026, ACL2026-f}}), studying human-LLM decision alignment.
+    My research spans two areas: Trustworthy AI and NeuroAI. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability} ({\small \textcolor{gray}{ICML2026 Oral, ICML2026 MI-w}}), probing memory traces in LLMs, \textit{AI Steerability} ({\small \textcolor{gray}{ICLR2026, ICLR2026}}), editing and unlearning model knowledge, and \textit{AI Alignment} ({\small \textcolor{gray}{AAAI2026, ACL2026-f}}), studying human-LLM decision alignment. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI} ({\small \textcolor{gray}{NeurIPS2023, ICLR2025}}), translating brain mechanisms into model architectures, and \textit{AI for Neuroscience} ({\small \textcolor{gray}{IJCV2024, Exp.Mol.Med.2026}}), applying ML to behavioral and neural data.
 
-- title: Publication Summary
-  type: publication_summary
+- title: Related Works
+  type: list
+  contents:
+    - "<b>ICML 2026 Oral</b>: AI Engram: In Search of Memory Traces in Artificial Intelligence, Kwon et al."
+    - "<b>ICML 2026 MI-w</b>: Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing, Kwon et al."
+    - "<b>ICLR 2026</b>: Bilinear Relational Structure Fixes Reversal Curse and Enables Consistent Model Editing, Kim, Kwon et al."
+    - "<b>ICLR 2026</b>: Erase or Hide? Suppressing Spurious Unlearning Neurons for Robust Unlearning, Yang, Kwon et al."
+    - "<b>AAAI 2026</b>: Dropouts in Confidence: Moral Uncertainty in Human-LLM Alignment, Kwon et al."
+    - "<b>ACL 2026-f</b>: Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions, Kim, Kwon et al."
+    - "<b>NeurIPS 2023</b>: Transformer as a Hippocampal Memory Consolidation Model Based on NMDAR-Inspired Nonlinearity, Kim, Kwon et al."
+    - "<b>ICLR 2025</b>: Brain-inspired Lp-Convolution Benefits Large Kernels and Aligns Better with Visual Cortex, Kwon et al."
+    - "<b>IJCV 2024</b>: SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior, Kwon et al."
+    - "<b>Exp. Mol. Med. 2026</b>: Cerebellar Tonic Inhibition Orchestrates the Maturation of Information Processing and Motor Coordination, Kwon et al."
 
 - title: Professional Experience
   type: time_table
@@ -54,6 +65,9 @@
       year: 2008 - 2012
       description:
         - "Full-Ride Scholarship, Korea-Japan Governments Joint Scholarship Program"
+
+- title: Publication Summary
+  type: publication_summary
 
 - title: Achievements
   type: time_table

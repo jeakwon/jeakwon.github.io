@@ -474,11 +474,19 @@ def render_cv_section_items(section: dict) -> str:
 
 
 def render_list_section(section: dict) -> str:
-    """Render a list section."""
+    """Render a list section. `<b>...</b>` tags become \\textbf{...}."""
     title = escape_latex(section.get("title", "").lower())
     lines = [f"\\block{{{title}}}", "", "\\begin{itemize}"]
     for item in section.get("contents", []):
-        lines.append(f"\\item {escape_latex(str(item))}")
+        rendered = re.sub(
+            r"<b>(.*?)</b>",
+            lambda m: f"\\textbf{{{escape_latex(m.group(1))}}}",
+            str(item),
+        )
+        # Escape segments outside the bold tags
+        parts = re.split(r"(\\textbf\{[^}]*\})", rendered)
+        rendered = "".join(p if p.startswith("\\textbf{") else escape_latex(p) for p in parts)
+        lines.append(f"\\item {rendered}")
     lines.append("\\end{itemize}")
     return "\n".join(lines)
 
