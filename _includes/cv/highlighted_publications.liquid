@@ -1,56 +1,35 @@
 <style>
-  .hl-pub-group { margin-bottom: 1rem; }
-  .hl-pub-group + .hl-pub-group { margin-top: 1.25rem; }
-  .hl-pub-group-title {
-    font-weight: 600;
-    font-size: 1rem;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    opacity: 0.85;
-    border-bottom: 1px solid var(--global-divider-color, rgba(127, 127, 127, 0.25));
-    padding-bottom: 0.25rem;
-    margin-bottom: 0.6rem;
+  .hl-ref-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    counter-reset: hl-ref;
   }
-  .hl-pub-list { list-style: none; padding-left: 0; margin-bottom: 0; }
-  .hl-pub-item { padding: 0.5rem 0; }
-  .hl-pub-item + .hl-pub-item { border-top: 1px solid var(--global-divider-color, rgba(127, 127, 127, 0.12)); }
-  .hl-pub-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 0.75rem;
-    flex-wrap: wrap;
+  .hl-ref-list li {
+    padding-left: 2.2em;
+    text-indent: -2.2em;
+    margin-bottom: 0.35em;
+    line-height: 1.4;
+    counter-increment: hl-ref;
   }
-  .hl-pub-venue { font-weight: 600; }
-  .hl-pub-badge { font-style: italic; font-weight: 400; opacity: 0.7; margin-left: 0.25rem; }
-  .hl-pub-role {
-    font-size: 0.75rem;
-    padding: 0.1rem 0.55rem;
-    border: 1px solid currentColor;
-    border-radius: 0.85rem;
-    opacity: 0.75;
-    white-space: nowrap;
+  .hl-ref-list li::before {
+    content: "[" counter(hl-ref) "]";
+    display: inline-block;
+    width: 2em;
+    margin-right: 0.2em;
+    text-indent: 0;
+    text-align: left;
+    font-variant-numeric: tabular-nums;
+    opacity: 0.8;
   }
-  .hl-pub-title { margin-top: 0.15rem; line-height: 1.35; }
-  .hl-pub-authors { font-size: 0.88rem; opacity: 0.7; margin-top: 0.1rem; }
+  .hl-ref-venue { font-weight: 600; }
+  .hl-ref-role { font-style: italic; opacity: 0.7; }
 </style>
 
-{% for group in entry.contents %}
-  <div class="hl-pub-group">
-    <div class="hl-pub-group-title">{{ group.title }}</div>
-    <ul class="hl-pub-list">
-      {% for item in group.items %}
-        <li class="hl-pub-item">
-          <div class="hl-pub-header">
-            <span class="hl-pub-venue">
-              {{ item.venue }}{% if item.badge %}<span class="hl-pub-badge">({{ item.badge }})</span>{% endif %}
-            </span>
-            {% if item.role %}<span class="hl-pub-role">{{ item.role }}</span>{% endif %}
-          </div>
-          <div class="hl-pub-title">{{ item.title }}</div>
-          <div class="hl-pub-authors">{{ item.authors }}</div>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
+<ol class="hl-ref-list">
+  {% for item in entry.contents %}
+    <li>
+      <span class="hl-ref-venue">{{ item.venue }}</span>: {{ item.title }}. {{ item.authors }}{% if item.role %} <span class="hl-ref-role">({{ item.role }})</span>{% endif %}
+    </li>
+  {% endfor %}
+</ol>

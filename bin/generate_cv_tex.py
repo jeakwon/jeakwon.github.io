@@ -576,31 +576,25 @@ def render_prefixed_section(section: dict) -> str:
 
 
 def render_highlighted_publications(section: dict) -> str:
-    """Render the Highlighted Publications block: each group is a bold
-    subheader; each item has venue (+ optional badge), role chip, title,
-    and authors on three lines."""
+    """Render a flat reference-style numbered list. Each item is one line:
+    "[N] <Venue>: <Title>. <Authors> (<Role>)" with venue bold."""
     title = escape_latex(section.get("title", "").lower())
-    lines = [f"\\block{{{title}}}", ""]
-    for group in section.get("contents", []):
-        gtitle = render_inline(str(group.get("title", "")))
-        lines.append(f"\\textbf{{{gtitle}}}")
-        lines.append("\\begin{itemize}[leftmargin=1.2em,itemsep=0.45em,topsep=0.25em]")
-        for item in group.get("items", []):
-            venue = render_inline(str(item.get("venue", "")))
-            badge = item.get("badge", "")
-            badge_tex = f" \\textit{{({render_inline(str(badge))})}}" if badge else ""
-            role = item.get("role", "")
-            role_tex = (
-                f"\\hfill {{\\small\\itshape {render_inline(str(role))}}}" if role else ""
-            )
-            paper_title = render_inline(str(item.get("title", "")))
-            authors = render_inline(str(item.get("authors", "")))
-            lines.append(f"\\item \\textbf{{{venue}}}{badge_tex}{role_tex}\\\\")
-            lines.append(f"{paper_title}\\\\")
-            lines.append(f"{{\\small\\color{{gray}}{authors}}}")
-        lines.append("\\end{itemize}")
-        lines.append("")
-    return "\n".join(lines).rstrip()
+    lines = [
+        f"\\block{{{title}}}",
+        "",
+        "\\begin{enumerate}[label={[\\arabic*]},leftmargin=2.2em,itemsep=0.25em,topsep=0.1em,parsep=0pt]",
+    ]
+    for item in section.get("contents", []):
+        venue = render_inline(str(item.get("venue", "")))
+        paper_title = render_inline(str(item.get("title", "")))
+        authors = render_inline(str(item.get("authors", "")))
+        role = item.get("role", "")
+        role_tex = f" \\textit{{({render_inline(str(role))})}}" if role else ""
+        lines.append(
+            f"\\item \\textbf{{{venue}}}: {paper_title}. {authors}{role_tex}"
+        )
+    lines.append("\\end{enumerate}")
+    return "\n".join(lines)
 
 
 def render_nested_list(section: dict) -> str:
