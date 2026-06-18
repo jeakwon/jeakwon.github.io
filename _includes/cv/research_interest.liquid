@@ -26,7 +26,7 @@
   }
   .ri-refs .ri-venue { font-weight: 600; }
   .ri-refs .ri-title { font-style: italic; }
-  .ri-refs b { color: var(--ri-accent); }
+  .ri-refs .ri-role { color: var(--ri-accent); }
 </style>
 
 <div class="ri-block">
@@ -39,7 +39,7 @@
     <ol class="ri-refs">
       {% for item in entry.references %}
         <li>
-          <span class="ri-venue">{{ item.venue }}</span>. <span class="ri-title">{{ item.title }}</span>. {{ item.authors }}
+          <span class="ri-title">{{ item.title }}</span>, <span class="ri-venue">{{ item.venue }}</span>, {{ item.authors }}{% if item.role %} <span class="ri-role">({{ item.role }})</span>{% endif %}
         </li>
       {% endfor %}
     </ol>

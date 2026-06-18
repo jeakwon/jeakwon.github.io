@@ -21,33 +21,43 @@
     - venue: ICML 2026 Oral
       title: "AI Engram: In Search of Memory Traces in Artificial Intelligence"
       authors: "<b>Kwon</b> et al."
+      role: First
     - venue: ICML 2026 Mech. Interp. Workshop
       title: "Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing"
       authors: "<b>Kwon</b> et al."
+      role: First
     - venue: ICLR 2026
       title: Bilinear Relational Structure Fixes Reversal Curse and Enables Consistent Model Editing
       authors: "Kim, <b>Kwon</b> et al."
+      role: Co-author
     - venue: ICLR 2026
       title: "Erase or Hide? Suppressing Spurious Unlearning Neurons for Robust Unlearning"
       authors: "Yang, <b>Kwon</b> et al."
+      role: Co-author
     - venue: AAAI 2026
       title: "Dropouts in Confidence: Moral Uncertainty in Human-LLM Alignment"
       authors: "<b>Kwon</b> et al."
+      role: First
     - venue: ACL 2026 Findings
       title: "Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions"
       authors: "Kim, <b>Kwon</b> et al."
+      role: Co-corresponding
     - venue: NeurIPS 2023
       title: Transformer as a Hippocampal Memory Consolidation Model Based on NMDAR-Inspired Nonlinearity
       authors: "Kim, <b>Kwon</b> et al."
+      role: First
     - venue: ICLR 2025
       title: Brain-inspired Lp-Convolution Benefits Large Kernels and Aligns Better with Visual Cortex
       authors: "<b>Kwon</b> et al."
+      role: First
     - venue: IJCV 2024
       title: "SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior"
       authors: "<b>Kwon</b> et al."
+      role: First
     - venue: Exp. Mol. Med. 2026
       title: Cerebellar Tonic Inhibition Orchestrates the Maturation of Information Processing and Motor Coordination
       authors: "<b>Kwon</b> et al."
+      role: First
 
 - title: Professional Experience
   type: time_table
