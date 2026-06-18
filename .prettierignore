@@ -18,7 +18,7 @@ _data/cv.yml
 # bib.liquid edited manually; skip prettier to keep CI green
 _layouts/bib.liquid
 # Hand-tuned CSS block inside; skip prettier
-_includes/cv/highlighted_publications.liquid
+_includes/cv/research_interest.liquid
 # Skip prose markdown: formatting noise outweighs value for a single-author blog
 _posts/**/*.md
 _pages/**/*.md

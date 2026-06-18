@@ -477,6 +477,7 @@ _INLINE_TAGS = {
     "b": ("\\textbf{", "}"),
     "u": ("\\underline{", "}"),
     "mark": ("\\colorbox{yellow!25}{", "}"),
+    "sup": ("\\textsuperscript{", "}"),
 }
 
 
@@ -575,25 +576,39 @@ def render_prefixed_section(section: dict) -> str:
     return "\n".join(lines)
 
 
-def render_highlighted_publications(section: dict) -> str:
-    """Render a flat reference-style numbered list. Each item is one line:
-    "[N] <Venue>: <Title>. <Authors> (<Role>)" with venue bold."""
+def render_research_interest(section: dict) -> str:
+    """Render Research Interest: paragraph body followed by a compact
+    numbered references enumerate. Reference numbers and \\textbf{Kwon}
+    inside the authors line are colored with the accent color."""
     title = escape_latex(section.get("title", "").lower())
-    lines = [
-        f"\\block{{{title}}}",
-        "",
-        "\\begin{enumerate}[label={[\\arabic*]},leftmargin=2.2em,itemsep=0.25em,topsep=0.1em,parsep=0pt]",
-    ]
-    for item in section.get("contents", []):
-        venue = render_inline(str(item.get("venue", "")))
-        paper_title = render_inline(str(item.get("title", "")))
-        authors = render_inline(str(item.get("authors", "")))
-        role = item.get("role", "")
-        role_tex = f" \\textit{{({render_inline(str(role))})}}" if role else ""
+    body = section.get("pdf_paragraph") or " ".join(str(c) for c in section.get("contents", []))
+    lines = [f"\\block{{{title}}}", "", body]
+    refs = section.get("references", [])
+    if refs:
+        lines.append("\\vspace{0.4em}")
+        lines.append("{\\small")
         lines.append(
-            f"\\item \\textbf{{{venue}}}: {paper_title}. {authors}{role_tex}"
+            "\\begin{enumerate}[label={[{\\color{accent}\\arabic*}]},"
+            "leftmargin=2.2em,itemsep=0.2em,topsep=0.1em,parsep=0pt]"
         )
-    lines.append("\\end{enumerate}")
+        for item in refs:
+            venue = render_inline(str(item.get("venue", "")))
+            paper_title = render_inline(str(item.get("title", "")))
+            authors = render_inline(str(item.get("authors", "")))
+            authors = re.sub(
+                r"\\textbf\{Kwon\}",
+                r"{\\color{accent}\\textbf{Kwon}}",
+                authors,
+            )
+            role = item.get("role", "")
+            role_tex = (
+                f" \\textit{{\\color{{gray}}({render_inline(str(role))})}}" if role else ""
+            )
+            lines.append(
+                f"\\item \\textbf{{{venue}}}: {paper_title}. {authors}{role_tex}"
+            )
+        lines.append("\\end{enumerate}")
+        lines.append("}")
     return "\n".join(lines)
 
 
@@ -687,8 +702,8 @@ def generate_cv_tex():
             parts.append(render_list_section(section))
         elif st == "nested_list":
             parts.append(render_nested_list(section))
-        elif st == "highlighted_publications":
-            parts.append(render_highlighted_publications(section))
+        elif st == "research_interest":
+            parts.append(render_research_interest(section))
         elif st == "prefixed":
             parts.append(render_prefixed_section(section))
         elif st == "research_areas":

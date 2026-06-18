@@ -11,17 +11,13 @@
       value: onlytojay@gmail.com
 
 - title: Research Interest
-  type: list
-  pdf_style: paragraph
+  type: research_interest
   contents:
-    - "<b>Trustworthy AI</b>: AI Interpretability [1, 2], AI Steerability [3, 4], AI Alignment [5, 6]"
-    - "<b>NeuroAI</b>: Neuroscience for AI [7, 8], AI for Neuroscience [9, 10]"
+    - "<b>Trustworthy AI</b>: AI Interpretability<sup>1, 2</sup>, AI Steerability<sup>3, 4</sup>, AI Alignment<sup>5, 6</sup>"
+    - "<b>NeuroAI</b>: Neuroscience for AI<sup>7, 8</sup>, AI for Neuroscience<sup>9, 10</sup>"
   pdf_paragraph: |
-    My research spans two areas: Trustworthy AI and NeuroAI. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability} ({\small\textcolor{gray}{[1, 2]}}), probing memory traces in LLMs, \textit{AI Steerability} ({\small\textcolor{gray}{[3, 4]}}), editing and unlearning model knowledge, and \textit{AI Alignment} ({\small\textcolor{gray}{[5, 6]}}), studying human-LLM decision alignment. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI} ({\small\textcolor{gray}{[7, 8]}}), translating brain mechanisms into model architectures, and \textit{AI for Neuroscience} ({\small\textcolor{gray}{[9, 10]}}), applying ML to behavioral and neural data.
-
-- title: References
-  type: highlighted_publications
-  contents:
+    My research spans two areas: Trustworthy AI and NeuroAI. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability}\textsuperscript{\color{accent}1, 2}, probing memory traces in LLMs, \textit{AI Steerability}\textsuperscript{\color{accent}3, 4}, editing and unlearning model knowledge, and \textit{AI Alignment}\textsuperscript{\color{accent}5, 6}, studying human-LLM decision alignment. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI}\textsuperscript{\color{accent}7, 8}, translating brain mechanisms into model architectures, and \textit{AI for Neuroscience}\textsuperscript{\color{accent}9, 10}, applying ML to behavioral and neural data.
+  references:
     - venue: ICML 2026 Oral
       title: "AI Engram: In Search of Memory Traces in Artificial Intelligence"
       authors: "<b>Kwon</b> et al."

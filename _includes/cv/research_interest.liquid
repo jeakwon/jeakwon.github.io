@@ -1,0 +1,47 @@
+<style>
+  .ri-block { --ri-accent: #1F3A68; }
+  .ri-block sup { color: var(--ri-accent); font-weight: 600; font-size: 0.7em; padding-left: 0.05em; }
+  .ri-refs {
+    padding-left: 0;
+    margin: 0.9rem 0 0 0;
+    list-style: none;
+    counter-reset: ri-ref;
+    font-size: 0.92em;
+    line-height: 1.45;
+  }
+  .ri-refs li {
+    padding-left: 2.2em;
+    text-indent: -2.2em;
+    margin-bottom: 0.3em;
+    counter-increment: ri-ref;
+  }
+  .ri-refs li::before {
+    content: "[" counter(ri-ref) "]";
+    display: inline-block;
+    width: 2em;
+    text-indent: 0;
+    color: var(--ri-accent);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .ri-refs .ri-venue { font-weight: 600; }
+  .ri-refs b { color: var(--ri-accent); }
+  .ri-refs .ri-role { font-style: italic; opacity: 0.7; }
+</style>
+
+<div class="ri-block">
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for content in entry.contents %}
+      <li class="list-group-item">{{ content }}</li>
+    {% endfor %}
+  </ul>
+  {% if entry.references %}
+    <ol class="ri-refs">
+      {% for item in entry.references %}
+        <li>
+          <span class="ri-venue">{{ item.venue }}</span>: {{ item.title }}. {{ item.authors }}{% if item.role %} <span class="ri-role">({{ item.role }})</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  {% endif %}
+</div>
