@@ -585,7 +585,7 @@ def render_research_interest(section: dict) -> str:
     lines = [f"\\block{{{title}}}", "", body]
     refs = section.get("references", [])
     if refs:
-        lines.append("\\vspace{0.4em}")
+        lines.append("\\vspace{0.9em}")
         lines.append("{\\small")
         lines.append(
             "\\begin{enumerate}[label={[{\\color{accent}\\arabic*}]},"
@@ -600,12 +600,8 @@ def render_research_interest(section: dict) -> str:
                 r"{\\color{accent}\\textbf{Kwon}}",
                 authors,
             )
-            role = item.get("role", "")
-            role_tex = (
-                f" \\textit{{\\color{{gray}}({render_inline(str(role))})}}" if role else ""
-            )
             lines.append(
-                f"\\item \\textbf{{{venue}}}: {paper_title}. {authors}{role_tex}"
+                f"\\item \\textbf{{{venue}}}. \\textit{{{paper_title}}}. {authors}"
             )
         lines.append("\\end{enumerate}")
         lines.append("}")

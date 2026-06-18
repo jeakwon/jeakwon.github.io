@@ -1,9 +1,9 @@
 <style>
   .ri-block { --ri-accent: #1F3A68; }
-  .ri-block sup { color: var(--ri-accent); font-weight: 600; font-size: 0.7em; padding-left: 0.05em; }
+  .ri-block .ri-cite { color: var(--ri-accent); font-weight: 600; }
   .ri-refs {
     padding-left: 0;
-    margin: 0.9rem 0 0 0;
+    margin: 1.3rem 0 0 0;
     list-style: none;
     counter-reset: ri-ref;
     font-size: 0.92em;
@@ -25,8 +25,8 @@
     font-variant-numeric: tabular-nums;
   }
   .ri-refs .ri-venue { font-weight: 600; }
+  .ri-refs .ri-title { font-style: italic; }
   .ri-refs b { color: var(--ri-accent); }
-  .ri-refs .ri-role { font-style: italic; opacity: 0.7; }
 </style>
 
 <div class="ri-block">
@@ -39,7 +39,7 @@
     <ol class="ri-refs">
       {% for item in entry.references %}
         <li>
-          <span class="ri-venue">{{ item.venue }}</span>: {{ item.title }}. {{ item.authors }}{% if item.role %} <span class="ri-role">({{ item.role }})</span>{% endif %}
+          <span class="ri-venue">{{ item.venue }}</span>. <span class="ri-title">{{ item.title }}</span>. {{ item.authors }}
         </li>
       {% endfor %}
     </ol>

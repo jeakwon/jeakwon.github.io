@@ -13,51 +13,41 @@
 - title: Research Interest
   type: research_interest
   contents:
-    - "<b>Trustworthy AI</b>: AI Interpretability<sup>1, 2</sup>, AI Steerability<sup>3, 4</sup>, AI Alignment<sup>5, 6</sup>"
-    - "<b>NeuroAI</b>: Neuroscience for AI<sup>7, 8</sup>, AI for Neuroscience<sup>9, 10</sup>"
+    - "<b>Trustworthy AI</b>: AI Interpretability <span class=\"ri-cite\">[1, 2]</span>, AI Steerability <span class=\"ri-cite\">[3, 4]</span>, AI Alignment <span class=\"ri-cite\">[5, 6]</span>"
+    - "<b>NeuroAI</b>: Neuroscience for AI <span class=\"ri-cite\">[7, 8]</span>, AI for Neuroscience <span class=\"ri-cite\">[9, 10]</span>"
   pdf_paragraph: |
-    My research spans two areas: Trustworthy AI and NeuroAI. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability}\textsuperscript{\color{accent}1, 2}, probing memory traces in LLMs, \textit{AI Steerability}\textsuperscript{\color{accent}3, 4}, editing and unlearning model knowledge, and \textit{AI Alignment}\textsuperscript{\color{accent}5, 6}, studying human-LLM decision alignment. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI}\textsuperscript{\color{accent}7, 8}, translating brain mechanisms into model architectures, and \textit{AI for Neuroscience}\textsuperscript{\color{accent}9, 10}, applying ML to behavioral and neural data.
+    My research spans two areas: Trustworthy AI and NeuroAI. Within \textbf{Trustworthy AI}, I focus on \textit{AI Interpretability} {\color{accent}[1, 2]}, probing memory traces in LLMs, \textit{AI Steerability} {\color{accent}[3, 4]}, editing and unlearning model knowledge, and \textit{AI Alignment} {\color{accent}[5, 6]}, studying human-LLM decision alignment. Within \textbf{NeuroAI}, I pursue \textit{Neuroscience for AI} {\color{accent}[7, 8]}, translating brain mechanisms into model architectures, and \textit{AI for Neuroscience} {\color{accent}[9, 10]}, applying ML to behavioral and neural data.
   references:
     - venue: ICML 2026 Oral
       title: "AI Engram: In Search of Memory Traces in Artificial Intelligence"
       authors: "<b>Kwon</b> et al."
-      role: First
     - venue: ICML 2026 Mech. Interp. Workshop
       title: "Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing"
       authors: "<b>Kwon</b> et al."
-      role: First
     - venue: ICLR 2026
       title: Bilinear Relational Structure Fixes Reversal Curse and Enables Consistent Model Editing
       authors: "Kim, <b>Kwon</b> et al."
-      role: Co-author
     - venue: ICLR 2026
       title: "Erase or Hide? Suppressing Spurious Unlearning Neurons for Robust Unlearning"
       authors: "Yang, <b>Kwon</b> et al."
-      role: Co-author
     - venue: AAAI 2026
       title: "Dropouts in Confidence: Moral Uncertainty in Human-LLM Alignment"
       authors: "<b>Kwon</b> et al."
-      role: First
     - venue: ACL 2026 Findings
       title: "Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions"
       authors: "Kim, <b>Kwon</b> et al."
-      role: Co-corresponding
     - venue: NeurIPS 2023
       title: Transformer as a Hippocampal Memory Consolidation Model Based on NMDAR-Inspired Nonlinearity
       authors: "Kim, <b>Kwon</b> et al."
-      role: First
     - venue: ICLR 2025
       title: Brain-inspired Lp-Convolution Benefits Large Kernels and Aligns Better with Visual Cortex
       authors: "<b>Kwon</b> et al."
-      role: First
     - venue: IJCV 2024
       title: "SUBTLE: An Unsupervised Platform with Temporal Link Embedding that Maps Animal Behavior"
       authors: "<b>Kwon</b> et al."
-      role: First
     - venue: Exp. Mol. Med. 2026
       title: Cerebellar Tonic Inhibition Orchestrates the Maturation of Information Processing and Motor Coordination
       authors: "<b>Kwon</b> et al."
-      role: First
 
 - title: Professional Experience
   type: time_table
