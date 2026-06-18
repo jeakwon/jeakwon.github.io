@@ -8,6 +8,10 @@ on:
       - "bin/generate_cv_tex.py"
   workflow_dispatch:
 
+concurrency:
+  group: cv-pdf-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   build_latex:
     runs-on: ubuntu-latest
@@ -47,8 +51,12 @@ jobs:
           git add assets/pdf/CV_JeaKwon.pdf cv.tex
           git diff --staged --quiet || (
             git commit -m "Auto-update CV PDF from cv.yml + papers.bib"
-            git pull --rebase
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase -X theirs && git push && exit 0
+              git rebase --abort 2>/dev/null || true
+              sleep $((RANDOM % 10 + 5))
+            done
+            exit 1
           )
 
       - name: Trigger Deploy
