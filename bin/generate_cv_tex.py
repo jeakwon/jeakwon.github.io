@@ -473,20 +473,39 @@ def render_cv_section_items(section: dict) -> str:
     return "\n".join(lines)
 
 
+_INLINE_TAGS = {
+    "b": ("\\textbf{", "}"),
+    "u": ("\\underline{", "}"),
+    "mark": ("\\colorbox{yellow!25}{", "}"),
+}
+
+
+def render_inline(text: str) -> str:
+    """Convert <b>, <u>, <mark> tags (nestable) to LaTeX; escape everything else."""
+    out = []
+    i = 0
+    pattern = re.compile(r"<(b|u|mark)>(.*?)</\1>", re.DOTALL)
+    while i < len(text):
+        m = pattern.match(text, i)
+        if m:
+            opener, closer = _INLINE_TAGS[m.group(1)]
+            out.append(opener + render_inline(m.group(2)) + closer)
+            i = m.end()
+        else:
+            nxt = text.find("<", i)
+            if nxt == -1:
+                nxt = len(text)
+            out.append(escape_latex(text[i:nxt]))
+            i = max(nxt, i + 1) if nxt == i else nxt
+    return "".join(out)
+
+
 def render_list_section(section: dict) -> str:
-    """Render a list section. `<b>...</b>` tags become \\textbf{...}."""
+    """Render a list section. HTML inline tags <b>/<u>/<mark> render to LaTeX."""
     title = escape_latex(section.get("title", "").lower())
     lines = [f"\\block{{{title}}}", "", "\\begin{itemize}"]
     for item in section.get("contents", []):
-        rendered = re.sub(
-            r"<b>(.*?)</b>",
-            lambda m: f"\\textbf{{{escape_latex(m.group(1))}}}",
-            str(item),
-        )
-        # Escape segments outside the bold tags
-        parts = re.split(r"(\\textbf\{[^}]*\})", rendered)
-        rendered = "".join(p if p.startswith("\\textbf{") else escape_latex(p) for p in parts)
-        lines.append(f"\\item {rendered}")
+        lines.append(f"\\item {render_inline(str(item))}")
     lines.append("\\end{itemize}")
     return "\n".join(lines)
 
@@ -557,14 +576,20 @@ def render_prefixed_section(section: dict) -> str:
 
 
 def render_nested_list(section: dict) -> str:
-    """Render a nested list section."""
+    """Render a nested list section: each group becomes a bold subheader
+    followed by an itemize of its items. HTML inline tags <b>/<u>/<mark>
+    in items render to LaTeX."""
     title = escape_latex(section.get("title", "").lower())
-    lines = [f"\\block{{{title}}}", "", "\\begin{itemize}"]
+    lines = [f"\\block{{{title}}}", ""]
     for group in section.get("contents", []):
-        items_str = ", ".join(escape_latex(i) for i in group.get("items", []))
-        lines.append(f"\\item {escape_latex(group.get('title', ''))} \\sep {items_str}")
-    lines.append("\\end{itemize}")
-    return "\n".join(lines)
+        group_title = render_inline(str(group.get("title", "")))
+        lines.append(f"\\textbf{{\\textit{{{group_title}}}}}")
+        lines.append("\\begin{itemize}")
+        for item in group.get("items", []):
+            lines.append(f"\\item {render_inline(str(item))}")
+        lines.append("\\end{itemize}")
+        lines.append("")
+    return "\n".join(lines).rstrip()
 
 
 def generate_cv_tex():
