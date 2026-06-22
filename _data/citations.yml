@@ -1,16 +1,20 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-06-22'
 papers:
+  6I0mg_EAAAAJ:-f6ydRqryjwC:
+    citations: 0
+    title: 'AI Engram: In Search of Memory Traces in Artificial Intelligence'
+    year: '2026'
   6I0mg_EAAAAJ:2osOgNQ5qMEC:
-    citations: 65
+    citations: 66
     title: Orai1 and Orai3 in combination with Stim1 mediate the majority of store-operated calcium entry in astrocytes
     year: '2017'
   6I0mg_EAAAAJ:3fE2CSJIrl8C:
-    citations: 11
+    citations: 12
     title: Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity
     year: '2023'
   6I0mg_EAAAAJ:4DMP91E08xMC:
-    citations: 12
+    citations: 13
     title: Exploring persona-dependent llm alignment for the moral machine experiment
     year: '2025'
   6I0mg_EAAAAJ:4TOpqqG69KYC:
@@ -18,7 +22,7 @@ papers:
     title: Egocentric 3D skeleton learning in a deep neural network encodes obese-like motion representations
     year: '2024'
   6I0mg_EAAAAJ:5nxA0vEk-isC:
-    citations: 59
+    citations: 60
     title: "Visualizing reactive astrocyte-neuron interaction in Alzheimer\u2019s disease using 11C-acetate and 18F-FDG"
     year: '2023'
   6I0mg_EAAAAJ:8k81kl-MbHgC:
@@ -94,7 +98,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 287
+    citations: 290
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
@@ -102,9 +106,13 @@ papers:
     title: Training Dynamics of Parametric and In-Context Knowledge Utilization in Language Models
     year: '2025'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 149
+    citations: 150
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
+  6I0mg_EAAAAJ:hC7cP41nSMkC:
+    citations: 0
+    title: 'Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing'
+    year: '2026'
   6I0mg_EAAAAJ:mVmsd5A6BfQC:
     citations: 0
     title: 'Mind the Gap: LLM Actions vs. Human Social Understanding in Moral Dilemmas'
