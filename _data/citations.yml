@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-06-29'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: Orai1 and Orai3 in combination with Stim1 mediate the majority of store-operated calcium entry in astrocytes
     year: '2017'
   6I0mg_EAAAAJ:3fE2CSJIrl8C:
-    citations: 12
+    citations: 13
     title: Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity
     year: '2023'
   6I0mg_EAAAAJ:4DMP91E08xMC:
-    citations: 13
+    citations: 14
     title: Exploring persona-dependent llm alignment for the moral machine experiment
     year: '2025'
   6I0mg_EAAAAJ:4TOpqqG69KYC:
@@ -33,10 +33,6 @@ papers:
     citations: 0
     title: Bilinear relational structure fixes reversal curse and enables consistent model editing
     year: '2025'
-  6I0mg_EAAAAJ:IWHjjKOFINEC:
-    citations: 0
-    title: Bilinear representation mitigates reversal curse and enables consistent model editing
-    year: '2026'
   6I0mg_EAAAAJ:IjCSPb-OGe4C:
     citations: 121
     title: Control of motor coordination by astrocytic tonic GABA release through modulation of excitation/inhibition balance in cerebellum
@@ -74,7 +70,7 @@ papers:
     title: Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior
     year: '2018'
   6I0mg_EAAAAJ:Wp0gIr-vW9MC:
-    citations: 11
+    citations: 12
     title: "Integrating artificial intelligence and optogenetics for Parkinson\u2019s disease diagnosis and therapeutics in male mice"
     year: '2025'
   6I0mg_EAAAAJ:Y0pCki6q_DkC:
@@ -86,11 +82,11 @@ papers:
     title: Textual Supervision Enhances Geospatial Representations in Vision-Language Models
     year: '2026'
   6I0mg_EAAAAJ:Zph67rFs4hoC:
-    citations: 13
+    citations: 14
     title: GolpHCat (TMEM87A), a unique voltage-dependent cation channel in Golgi apparatus, contributes to Golgi-pH maintenance and hippocampus-dependent memory
     year: '2024'
   6I0mg_EAAAAJ:_FxGoFyzp5QC:
-    citations: 18
+    citations: 19
     title: Generation of astrocyte-specific MAOB conditional knockout mouse with minimal tonic GABA inhibition
     year: '2022'
   6I0mg_EAAAAJ:aqlVkmm33-oC:
@@ -98,7 +94,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 290
+    citations: 293
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
@@ -106,12 +102,16 @@ papers:
     title: Training Dynamics of Parametric and In-Context Knowledge Utilization in Language Models
     year: '2025'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 150
+    citations: 148
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
     citations: 0
     title: 'Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing'
+    year: '2026'
+  6I0mg_EAAAAJ:hFOr9nPyWt4C:
+    citations: 0
+    title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
     year: '2026'
   6I0mg_EAAAAJ:mVmsd5A6BfQC:
     citations: 0
@@ -130,7 +130,7 @@ papers:
     title: 'In Search of the Engram in LLMs: A Neuroscience Perspective on the Memory Functions in AI Models'
     year: Unknown Year
   6I0mg_EAAAAJ:u-x6o8ySG0sC:
-    citations: 63
+    citations: 62
     title: Tweety-homolog (Ttyh) family encodes the pore-forming subunits of the swelling-dependent volume-regulated anion channel (VRACswell) in the brain
     year: '2019'
   6I0mg_EAAAAJ:zYLM7Y9cAGgC:
