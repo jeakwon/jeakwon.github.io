@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-10'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -102,7 +102,7 @@ papers:
     title: Training Dynamics of Parametric and In-Context Knowledge Utilization in Language Models
     year: '2025'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 149
+    citations: 151
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
