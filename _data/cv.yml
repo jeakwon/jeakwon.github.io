@@ -133,6 +133,11 @@
 - title: Talks
   type: time_table
   contents:
+    - title: "Memory as a Window into Intelligence: Toward Shared Principles in Brain and AI"
+      institution: "Thinking about AI's Capability, Pre-ICML Workshop 2026 - GIST AI Days"
+      year: 2026
+      description:
+        - "(Invited Talk, In person, invited by Sundong Kim, <a href='https://taic-workshop.github.io/'>workshop website</a>)"
     - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
       institution: "Scalable Trustworthy AI (STAI) group - KAIST"
       year: 2026

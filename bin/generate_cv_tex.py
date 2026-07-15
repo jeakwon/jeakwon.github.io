@@ -450,7 +450,7 @@ def render_cv_section_items(section: dict) -> str:
                 for d in descs:
                     if not isinstance(d, str):
                         continue
-                    escaped = escape_latex(d)
+                    escaped = render_inline(d)
                     if escaped.startswith("("):
                         meta_descs.append(escaped)
                     else:
@@ -481,12 +481,21 @@ _INLINE_TAGS = {
 }
 
 
+_ANCHOR_RE = re.compile(r"""<a\s+href=["']([^"'<>]+)["']\s*>(.*?)</a>""", re.DOTALL)
+
+
 def render_inline(text: str) -> str:
-    """Convert <b>, <u>, <mark> tags (nestable) to LaTeX; escape everything else."""
+    """Convert <b>, <u>, <mark> tags (nestable) and <a href> links to LaTeX; escape everything else."""
     out = []
     i = 0
     pattern = re.compile(r"<(b|u|mark)>(.*?)</\1>", re.DOTALL)
     while i < len(text):
+        a = _ANCHOR_RE.match(text, i)
+        if a:
+            url = a.group(1).replace("%", "\\%").replace("#", "\\#")
+            out.append(f"\\href{{{url}}}{{{render_inline(a.group(2))}}}")
+            i = a.end()
+            continue
         m = pattern.match(text, i)
         if m:
             opener, closer = _INLINE_TAGS[m.group(1)]
