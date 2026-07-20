@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-07-20'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity
     year: '2023'
   6I0mg_EAAAAJ:4DMP91E08xMC:
-    citations: 14
+    citations: 16
     title: Exploring persona-dependent llm alignment for the moral machine experiment
     year: '2025'
   6I0mg_EAAAAJ:4TOpqqG69KYC:
@@ -94,7 +94,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 297
+    citations: 296
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
@@ -102,7 +102,7 @@ papers:
     title: Training Dynamics of Parametric and In-Context Knowledge Utilization in Language Models
     year: '2025'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 150
+    citations: 153
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
@@ -110,7 +110,7 @@ papers:
     title: 'Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing'
     year: '2026'
   6I0mg_EAAAAJ:hFOr9nPyWt4C:
-    citations: 0
+    citations: 1
     title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
     year: '2026'
   6I0mg_EAAAAJ:mB3voiENLucC:
