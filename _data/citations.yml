@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-08-05'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity
     year: '2023'
   6I0mg_EAAAAJ:4DMP91E08xMC:
-    citations: 16
+    citations: 15
     title: Exploring persona-dependent llm alignment for the moral machine experiment
     year: '2025'
   6I0mg_EAAAAJ:4TOpqqG69KYC:
@@ -22,7 +22,7 @@ papers:
     title: Egocentric 3D skeleton learning in a deep neural network encodes obese-like motion representations
     year: '2024'
   6I0mg_EAAAAJ:5nxA0vEk-isC:
-    citations: 61
+    citations: 62
     title: "Visualizing reactive astrocyte-neuron interaction in Alzheimer\u2019s disease using 11C-acetate and 18F-FDG"
     year: '2023'
   6I0mg_EAAAAJ:8k81kl-MbHgC:
@@ -33,16 +33,20 @@ papers:
     citations: 0
     title: Bilinear relational structure fixes reversal curse and enables consistent model editing
     year: '2025'
+  6I0mg_EAAAAJ:HDshCWvjkbEC:
+    citations: 0
+    title: EGOCENTRIC 3D SKELETON LEARNING IN IDENTITY-AWARE DEEP LSTM NETWORK ENCODES OBESE-LIKE MOTION REPRESENTATIONS
+    year: Unknown Year
   6I0mg_EAAAAJ:IjCSPb-OGe4C:
-    citations: 121
+    citations: 120
     title: Control of motor coordination by astrocytic tonic GABA release through modulation of excitation/inhibition balance in cerebellum
     year: '2018'
   6I0mg_EAAAAJ:L8Ckcad2t8MC:
-    citations: 2
+    citations: 3
     title: 'Dropouts in confidence: Moral uncertainty in human-LLM alignment'
     year: '2026'
   6I0mg_EAAAAJ:LkGwnXOMwfcC:
-    citations: 44
+    citations: 45
     title: Hypothalamic GABRA5-positive neurons control obesity via astrocytic GABA
     year: '2023'
   6I0mg_EAAAAJ:M3ejUd6NZC8C:
@@ -50,19 +54,23 @@ papers:
     title: Cerebellar tonic inhibition orchestrates the maturation of information processing and motor coordination
     year: '2026'
   6I0mg_EAAAAJ:QIV2ME_5wuYC:
-    citations: 3
-    title: Erase or Hide? Suppressing Spurious Unlearning Neurons for Robust Unlearning
-    year: '2025'
+    citations: 4
+    title: Erase or hide? suppressing spurious unlearning neurons for robust unlearning
+    year: '2026'
   6I0mg_EAAAAJ:Se3iqnhoufwC:
-    citations: 6
+    citations: 7
     title: Dopamine-induced astrocytic Ca2+ signaling in mPFC is mediated by MAO-B in young mice, but by dopamine receptors in adult mice
     year: '2022'
+  6I0mg_EAAAAJ:TQgYirikUcIC:
+    citations: 1
+    title: Bilinear representation mitigates reversal curse and enables consistent model editing
+    year: '2026'
   6I0mg_EAAAAJ:Tyk-4Ss8FVUC:
     citations: 11
-    title: Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus
+    title: 'Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus: J. Kwon et al.'
     year: '2021'
   6I0mg_EAAAAJ:UeHWp8X0CEIC:
-    citations: 74
+    citations: 75
     title: The Ca2+-activated chloride channel anoctamin-2 mediates spike-frequency adaptation and regulates sensory transmission in thalamocortical neurons
     year: '2016'
   6I0mg_EAAAAJ:W7OEmFMy1HYC:
@@ -70,7 +78,7 @@ papers:
     title: Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior
     year: '2018'
   6I0mg_EAAAAJ:Wp0gIr-vW9MC:
-    citations: 12
+    citations: 13
     title: "Integrating artificial intelligence and optogenetics for Parkinson\u2019s disease diagnosis and therapeutics in male mice"
     year: '2025'
   6I0mg_EAAAAJ:Y0pCki6q_DkC:
@@ -82,11 +90,11 @@ papers:
     title: Textual Supervision Enhances Geospatial Representations in Vision-Language Models
     year: '2026'
   6I0mg_EAAAAJ:Zph67rFs4hoC:
-    citations: 14
+    citations: 17
     title: GolpHCat (TMEM87A), a unique voltage-dependent cation channel in Golgi apparatus, contributes to Golgi-pH maintenance and hippocampus-dependent memory
     year: '2024'
   6I0mg_EAAAAJ:_FxGoFyzp5QC:
-    citations: 19
+    citations: 18
     title: Generation of astrocyte-specific MAOB conditional knockout mouse with minimal tonic GABA inhibition
     year: '2022'
   6I0mg_EAAAAJ:aqlVkmm33-oC:
@@ -94,24 +102,20 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 296
+    citations: 290
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
-    citations: 1
-    title: Training Dynamics of Parametric and In-Context Knowledge Utilization in Language Models
-    year: '2025'
+    citations: 3
+    title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
+    year: '2026'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 153
+    citations: 155
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
     citations: 0
     title: 'Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing'
-    year: '2026'
-  6I0mg_EAAAAJ:hFOr9nPyWt4C:
-    citations: 1
-    title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
     year: '2026'
   6I0mg_EAAAAJ:mB3voiENLucC:
     citations: 0
@@ -129,12 +133,8 @@ papers:
     citations: 44
     title: Excitation-inhibition imbalance leads to alteration of neuronal coherence and neurovascular coupling under acute stress
     year: '2020'
-  6I0mg_EAAAAJ:qxL8FJ1GzNcC:
-    citations: 0
-    title: 'In Search of the Engram in LLMs: A Neuroscience Perspective on the Memory Functions in AI Models'
-    year: Unknown Year
   6I0mg_EAAAAJ:u-x6o8ySG0sC:
-    citations: 62
+    citations: 60
     title: Tweety-homolog (Ttyh) family encodes the pore-forming subunits of the swelling-dependent volume-regulated anion channel (VRACswell) in the brain
     year: '2019'
   6I0mg_EAAAAJ:zYLM7Y9cAGgC:
