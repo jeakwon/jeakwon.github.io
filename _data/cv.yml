@@ -82,13 +82,13 @@
   contents:
     - title: Ph.D. in Nano-Bio-Information-Technology
       institution: Korea University, Seoul, South Korea
-      year: 2014 - 2022
+      year: "2014.03 - 2022.02"
       description:
         - "Advisor: C. Justin Lee, Director of IBS"
         - "Full-Ride Scholarship, KU-KIST Graduate School"
     - title: B.E. in Electrical and Electronic System
       institution: Saitama University, Saitama, Japan
-      year: 2008 - 2012
+      year: "2008.04 - 2012.03"
       description:
         - "Full-Ride Scholarship, Korea-Japan Governments Joint Scholarship Program"
 
@@ -134,8 +134,23 @@
   type: time_table
   contents:
     - title: "Memory as a Window into Intelligence: Toward Shared Principles in Brain and AI"
+      institution: "MLAI group, Yonsei University"
+      year: "2026.07"
+      description:
+        - "(Invited Seminar, In person, invited by Kyungwoo Song)"
+    - title: "Memory as a Window into Intelligence: Toward Shared Principles in Brain and AI"
+      institution: "Korea Institute of Science and Technology (KIST)"
+      year: "2026.07"
+      description:
+        - "(Invited Seminar, In person, invited by Min-Ho Nam)"
+    - title: "Memory as a Window into Intelligence: Toward Shared Principles in Brain and AI"
+      institution: "Ulsan National Institute of Science and Technology (UNIST)"
+      year: "2026.07"
+      description:
+        - "(Invited Seminar, In person, invited by Jaejun Yoo)"
+    - title: "Memory as a Window into Intelligence: Toward Shared Principles in Brain and AI"
       institution: "Thinking about AI's Capability, Pre-ICML Workshop 2026 - GIST AI Days"
-      year: 2026
+      year: "2026.07"
       description:
         - "(Invited Talk, In person, invited by Sundong Kim, <a href='https://taic-workshop.github.io/'>workshop website</a>)"
     - title: "AI Engram: In Search of Memory Traces in Artificial Neural Networks"
