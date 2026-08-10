@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-10'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Egocentric 3D skeleton learning in a deep neural network encodes obese-like motion representations
     year: '2024'
   6I0mg_EAAAAJ:5nxA0vEk-isC:
-    citations: 62
+    citations: 63
     title: "Visualizing reactive astrocyte-neuron interaction in Alzheimer\u2019s disease using 11C-acetate and 18F-FDG"
     year: '2023'
   6I0mg_EAAAAJ:8k81kl-MbHgC:
@@ -30,7 +30,7 @@ papers:
     title: 'SUBTLE: An unsupervised platform with temporal link embedding that maps animal behavior'
     year: '2024'
   6I0mg_EAAAAJ:9ZlFYXVOiuMC:
-    citations: 0
+    citations: 1
     title: Bilinear relational structure fixes reversal curse and enables consistent model editing
     year: '2025'
   6I0mg_EAAAAJ:HDshCWvjkbEC:
@@ -57,6 +57,10 @@ papers:
     citations: 4
     title: Erase or hide? suppressing spurious unlearning neurons for robust unlearning
     year: '2026'
+  6I0mg_EAAAAJ:R3hNpaxXUhUC:
+    citations: 0
+    title: 'In Search of the Engram in LLMs: A Neuroscience Perspective on the Memory Functions in AI Models'
+    year: Unknown Year
   6I0mg_EAAAAJ:Se3iqnhoufwC:
     citations: 7
     title: Dopamine-induced astrocytic Ca2+ signaling in mPFC is mediated by MAO-B in young mice, but by dopamine receptors in adult mice
@@ -102,7 +106,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 290
+    citations: 293
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
@@ -110,7 +114,7 @@ papers:
     title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
     year: '2026'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 155
+    citations: 157
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
