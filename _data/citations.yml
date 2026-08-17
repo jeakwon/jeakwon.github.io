@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-17'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -22,23 +22,15 @@ papers:
     title: Egocentric 3D skeleton learning in a deep neural network encodes obese-like motion representations
     year: '2024'
   6I0mg_EAAAAJ:5nxA0vEk-isC:
-    citations: 63
+    citations: 64
     title: "Visualizing reactive astrocyte-neuron interaction in Alzheimer\u2019s disease using 11C-acetate and 18F-FDG"
     year: '2023'
   6I0mg_EAAAAJ:8k81kl-MbHgC:
     citations: 11
     title: 'SUBTLE: An unsupervised platform with temporal link embedding that maps animal behavior'
     year: '2024'
-  6I0mg_EAAAAJ:9ZlFYXVOiuMC:
-    citations: 1
-    title: Bilinear relational structure fixes reversal curse and enables consistent model editing
-    year: '2025'
-  6I0mg_EAAAAJ:HDshCWvjkbEC:
-    citations: 0
-    title: EGOCENTRIC 3D SKELETON LEARNING IN IDENTITY-AWARE DEEP LSTM NETWORK ENCODES OBESE-LIKE MOTION REPRESENTATIONS
-    year: Unknown Year
   6I0mg_EAAAAJ:IjCSPb-OGe4C:
-    citations: 120
+    citations: 121
     title: Control of motor coordination by astrocytic tonic GABA release through modulation of excitation/inhibition balance in cerebellum
     year: '2018'
   6I0mg_EAAAAJ:L8Ckcad2t8MC:
@@ -46,7 +38,7 @@ papers:
     title: 'Dropouts in confidence: Moral uncertainty in human-LLM alignment'
     year: '2026'
   6I0mg_EAAAAJ:LkGwnXOMwfcC:
-    citations: 45
+    citations: 47
     title: Hypothalamic GABRA5-positive neurons control obesity via astrocytic GABA
     year: '2023'
   6I0mg_EAAAAJ:M3ejUd6NZC8C:
@@ -94,11 +86,11 @@ papers:
     title: Textual Supervision Enhances Geospatial Representations in Vision-Language Models
     year: '2026'
   6I0mg_EAAAAJ:Zph67rFs4hoC:
-    citations: 17
+    citations: 18
     title: GolpHCat (TMEM87A), a unique voltage-dependent cation channel in Golgi apparatus, contributes to Golgi-pH maintenance and hippocampus-dependent memory
     year: '2024'
   6I0mg_EAAAAJ:_FxGoFyzp5QC:
-    citations: 18
+    citations: 19
     title: Generation of astrocyte-specific MAOB conditional knockout mouse with minimal tonic GABA inhibition
     year: '2022'
   6I0mg_EAAAAJ:aqlVkmm33-oC:
@@ -106,7 +98,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 293
+    citations: 294
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
@@ -114,16 +106,12 @@ papers:
     title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
     year: '2026'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 157
+    citations: 159
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
     citations: 0
     title: 'Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing'
-    year: '2026'
-  6I0mg_EAAAAJ:mB3voiENLucC:
-    citations: 0
-    title: Textual Supervision Enhances Geospatial Representations in Vision-Language Models
     year: '2026'
   6I0mg_EAAAAJ:mVmsd5A6BfQC:
     citations: 0
@@ -138,7 +126,7 @@ papers:
     title: Excitation-inhibition imbalance leads to alteration of neuronal coherence and neurovascular coupling under acute stress
     year: '2020'
   6I0mg_EAAAAJ:u-x6o8ySG0sC:
-    citations: 60
+    citations: 61
     title: Tweety-homolog (Ttyh) family encodes the pore-forming subunits of the swelling-dependent volume-regulated anion channel (VRACswell) in the brain
     year: '2019'
   6I0mg_EAAAAJ:zYLM7Y9cAGgC:
