@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-08-19'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Egocentric 3D skeleton learning in a deep neural network encodes obese-like motion representations
     year: '2024'
   6I0mg_EAAAAJ:5nxA0vEk-isC:
-    citations: 64
+    citations: 65
     title: "Visualizing reactive astrocyte-neuron interaction in Alzheimer\u2019s disease using 11C-acetate and 18F-FDG"
     year: '2023'
   6I0mg_EAAAAJ:8k81kl-MbHgC:
