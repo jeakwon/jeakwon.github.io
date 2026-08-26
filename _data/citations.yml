@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-08-26'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -54,7 +54,7 @@ papers:
     title: 'In Search of the Engram in LLMs: A Neuroscience Perspective on the Memory Functions in AI Models'
     year: Unknown Year
   6I0mg_EAAAAJ:Se3iqnhoufwC:
-    citations: 7
+    citations: 8
     title: Dopamine-induced astrocytic Ca2+ signaling in mPFC is mediated by MAO-B in young mice, but by dopamine receptors in adult mice
     year: '2022'
   6I0mg_EAAAAJ:TQgYirikUcIC:
