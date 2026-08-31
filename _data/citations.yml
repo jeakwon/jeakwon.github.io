@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-26'
+  last_updated: '2026-08-31'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Egocentric 3D skeleton learning in a deep neural network encodes obese-like motion representations
     year: '2024'
   6I0mg_EAAAAJ:5nxA0vEk-isC:
-    citations: 65
+    citations: 66
     title: "Visualizing reactive astrocyte-neuron interaction in Alzheimer\u2019s disease using 11C-acetate and 18F-FDG"
     year: '2023'
   6I0mg_EAAAAJ:8k81kl-MbHgC:
@@ -30,7 +30,7 @@ papers:
     title: 'SUBTLE: An unsupervised platform with temporal link embedding that maps animal behavior'
     year: '2024'
   6I0mg_EAAAAJ:IjCSPb-OGe4C:
-    citations: 121
+    citations: 123
     title: Control of motor coordination by astrocytic tonic GABA release through modulation of excitation/inhibition balance in cerebellum
     year: '2018'
   6I0mg_EAAAAJ:L8Ckcad2t8MC:
@@ -86,7 +86,7 @@ papers:
     title: Textual Supervision Enhances Geospatial Representations in Vision-Language Models
     year: '2026'
   6I0mg_EAAAAJ:Zph67rFs4hoC:
-    citations: 18
+    citations: 19
     title: GolpHCat (TMEM87A), a unique voltage-dependent cation channel in Golgi apparatus, contributes to Golgi-pH maintenance and hippocampus-dependent memory
     year: '2024'
   6I0mg_EAAAAJ:_FxGoFyzp5QC:
@@ -98,7 +98,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 296
+    citations: 297
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
@@ -106,7 +106,7 @@ papers:
     title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
     year: '2026'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 160
+    citations: 162
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
@@ -118,7 +118,7 @@ papers:
     title: 'Mind the Gap: LLM Actions vs. Human Social Understanding in Moral Dilemmas'
     year: '2025'
   6I0mg_EAAAAJ:qUcmZB5y_30C:
-    citations: 0
+    citations: 1
     title: 'Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions'
     year: '2026'
   6I0mg_EAAAAJ:qjMakFHDy7sC:
