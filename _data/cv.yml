@@ -134,6 +134,11 @@
   type: time_table
   contents:
     - title: "Memory as a Window into Intelligence: Toward Shared Principles in Brain and AI"
+      institution: "AIR Lab, Korea University"
+      year: "2026.09"
+      description:
+        - "(Invited Seminar, Online, invited by Sangkyun Lee)"
+    - title: "Memory as a Window into Intelligence: Toward Shared Principles in Brain and AI"
       institution: "MLAI group, Yonsei University"
       year: "2026.07"
       description:
@@ -305,6 +310,12 @@
       institution: KSBNS & CJK 2025 Joint Symposium
       description:
         - '"Neuroscience-inspired AI: Computational Insights into Biological and Artificial Intelligence"'
+    - title: Area Chair
+      institution: "ICLR 2027 (upcoming)"
+    - title: Program Committee
+      institution: "NeurIPS 2026 Workshop on Interpretability as a Science (InterpScience)"
+    - title: Program Committee
+      institution: "NeurIPS 2026 Workshop on Neural Network Artifacts as a New Data Modality"
     - title: Program Committee
       institution: "AAAI 2026, AI Alignment Track"
     - title: Program Committee
