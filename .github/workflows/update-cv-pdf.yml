@@ -29,7 +29,7 @@ jobs:
           python-version: "3.13"
 
       - name: Install Python dependencies
-        run: pip install pyyaml bibtexparser
+        run: pip install pyyaml "bibtexparser<2"
 
       - name: Generate cv.tex from sources
         run: python bin/generate_cv_tex.py
