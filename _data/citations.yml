@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-28'
+  last_updated: '2026-10-05'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 1
@@ -14,7 +14,7 @@ papers:
     title: Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity
     year: '2023'
   6I0mg_EAAAAJ:4DMP91E08xMC:
-    citations: 17
+    citations: 18
     title: Exploring persona-dependent llm alignment for the moral machine experiment
     year: '2025'
   6I0mg_EAAAAJ:4TOpqqG69KYC:
@@ -46,7 +46,7 @@ papers:
     title: Cerebellar tonic inhibition orchestrates the maturation of information processing and motor coordination
     year: '2026'
   6I0mg_EAAAAJ:QIV2ME_5wuYC:
-    citations: 4
+    citations: 6
     title: Erase or hide? suppressing spurious unlearning neurons for robust unlearning
     year: '2026'
   6I0mg_EAAAAJ:R3hNpaxXUhUC:
@@ -66,7 +66,7 @@ papers:
     title: 'Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus: J. Kwon et al.'
     year: '2021'
   6I0mg_EAAAAJ:UeHWp8X0CEIC:
-    citations: 75
+    citations: 76
     title: The Ca2+-activated chloride channel anoctamin-2 mediates spike-frequency adaptation and regulates sensory transmission in thalamocortical neurons
     year: '2016'
   6I0mg_EAAAAJ:W7OEmFMy1HYC:
@@ -86,11 +86,11 @@ papers:
     title: Textual Supervision Enhances Geospatial Representations in Vision-Language Models
     year: '2026'
   6I0mg_EAAAAJ:Zph67rFs4hoC:
-    citations: 19
+    citations: 20
     title: GolpHCat (TMEM87A), a unique voltage-dependent cation channel in Golgi apparatus, contributes to Golgi-pH maintenance and hippocampus-dependent memory
     year: '2024'
   6I0mg_EAAAAJ:_FxGoFyzp5QC:
-    citations: 19
+    citations: 20
     title: Generation of astrocyte-specific MAOB conditional knockout mouse with minimal tonic GABA inhibition
     year: '2022'
   6I0mg_EAAAAJ:aqlVkmm33-oC:
@@ -98,7 +98,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 301
+    citations: 303
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
@@ -106,7 +106,7 @@ papers:
     title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
     year: '2026'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 164
+    citations: 166
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
@@ -122,7 +122,7 @@ papers:
     title: 'Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions'
     year: '2026'
   6I0mg_EAAAAJ:qjMakFHDy7sC:
-    citations: 46
+    citations: 48
     title: Excitation-inhibition imbalance leads to alteration of neuronal coherence and neurovascular coupling under acute stress
     year: '2020'
   6I0mg_EAAAAJ:u-x6o8ySG0sC:
