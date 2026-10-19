@@ -172,14 +172,14 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/jeakwon# your GitHub user name", "_blank");
+          window.open("https://github.com/jeakwon", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/jeakwon# your LinkedIn user name", "_blank");
+          window.open("https://www.linkedin.com/in/jeakwon", "_blank");
         },
       },{
         id: 'social-scholar',
