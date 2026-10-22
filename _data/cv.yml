@@ -311,7 +311,9 @@
       description:
         - '"Neuroscience-inspired AI: Computational Insights into Biological and Artificial Intelligence"'
     - title: Area Chair
-      institution: "ICLR 2027 (upcoming)"
+      institution: "ICML 2027"
+    - title: Area Chair
+      institution: "ICLR 2027"
     - title: Program Committee
       institution: "NeurIPS 2026 Workshop on Interpretability as a Science (InterpScience)"
     - title: Program Committee
