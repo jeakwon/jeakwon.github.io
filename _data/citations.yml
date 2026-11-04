@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-10-19'
+  last_updated: '2026-11-04'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
-    citations: 3
+    citations: 4
     title: 'AI Engram: In Search of Memory Traces in Artificial Intelligence'
     year: '2026'
   6I0mg_EAAAAJ:2osOgNQ5qMEC:
@@ -10,7 +10,7 @@ papers:
     title: Orai1 and Orai3 in combination with Stim1 mediate the majority of store-operated calcium entry in astrocytes
     year: '2017'
   6I0mg_EAAAAJ:3fE2CSJIrl8C:
-    citations: 14
+    citations: 15
     title: Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity
     year: '2023'
   6I0mg_EAAAAJ:4DMP91E08xMC:
@@ -22,7 +22,7 @@ papers:
     title: Egocentric 3D skeleton learning in a deep neural network encodes obese-like motion representations
     year: '2024'
   6I0mg_EAAAAJ:5nxA0vEk-isC:
-    citations: 71
+    citations: 72
     title: "Visualizing reactive astrocyte-neuron interaction in Alzheimer\u2019s disease using 11C-acetate and 18F-FDG"
     year: '2023'
   6I0mg_EAAAAJ:8k81kl-MbHgC:
@@ -30,7 +30,7 @@ papers:
     title: 'SUBTLE: An unsupervised platform with temporal link embedding that maps animal behavior'
     year: '2024'
   6I0mg_EAAAAJ:IjCSPb-OGe4C:
-    citations: 125
+    citations: 126
     title: Control of motor coordination by astrocytic tonic GABA release through modulation of excitation/inhibition balance in cerebellum
     year: '2018'
   6I0mg_EAAAAJ:L8Ckcad2t8MC:
@@ -38,7 +38,7 @@ papers:
     title: 'Dropouts in confidence: Moral uncertainty in human-LLM alignment'
     year: '2026'
   6I0mg_EAAAAJ:LkGwnXOMwfcC:
-    citations: 48
+    citations: 49
     title: Hypothalamic GABRA5-positive neurons control obesity via astrocytic GABA
     year: '2023'
   6I0mg_EAAAAJ:M3ejUd6NZC8C:
@@ -46,7 +46,7 @@ papers:
     title: Cerebellar tonic inhibition orchestrates the maturation of information processing and motor coordination
     year: '2026'
   6I0mg_EAAAAJ:QIV2ME_5wuYC:
-    citations: 6
+    citations: 7
     title: Erase or hide? suppressing spurious unlearning neurons for robust unlearning
     year: '2026'
   6I0mg_EAAAAJ:R3hNpaxXUhUC:
@@ -66,7 +66,7 @@ papers:
     title: 'Retina-attached slice recording reveals light-triggered tonic GABA signaling in suprachiasmatic nucleus: J. Kwon et al.'
     year: '2021'
   6I0mg_EAAAAJ:UeHWp8X0CEIC:
-    citations: 76
+    citations: 77
     title: The Ca2+-activated chloride channel anoctamin-2 mediates spike-frequency adaptation and regulates sensory transmission in thalamocortical neurons
     year: '2016'
   6I0mg_EAAAAJ:W7OEmFMy1HYC:
@@ -74,7 +74,7 @@ papers:
     title: Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior
     year: '2018'
   6I0mg_EAAAAJ:Wp0gIr-vW9MC:
-    citations: 15
+    citations: 17
     title: "Integrating artificial intelligence and optogenetics for Parkinson\u2019s disease diagnosis and therapeutics in male mice"
     year: '2025'
   6I0mg_EAAAAJ:Y0pCki6q_DkC:
@@ -86,11 +86,11 @@ papers:
     title: Textual Supervision Enhances Geospatial Representations in Vision-Language Models
     year: '2026'
   6I0mg_EAAAAJ:Zph67rFs4hoC:
-    citations: 20
+    citations: 21
     title: GolpHCat (TMEM87A), a unique voltage-dependent cation channel in Golgi apparatus, contributes to Golgi-pH maintenance and hippocampus-dependent memory
     year: '2024'
   6I0mg_EAAAAJ:_FxGoFyzp5QC:
-    citations: 21
+    citations: 22
     title: Generation of astrocyte-specific MAOB conditional knockout mouse with minimal tonic GABA inhibition
     year: '2022'
   6I0mg_EAAAAJ:aqlVkmm33-oC:
@@ -98,15 +98,19 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 304
+    citations: 309
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
     citations: 4
     title: How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language Models
     year: '2026'
+  6I0mg_EAAAAJ:e5wmG9Sq2KIC:
+    citations: 0
+    title: Best1 shapes the depth and stability of NREM sleep
+    year: '2026'
   6I0mg_EAAAAJ:eQOLeE2rZwMC:
-    citations: 168
+    citations: 170
     title: "Astrocytic urea cycle detoxifies A\u03B2-derived ammonia while impairing memory in Alzheimer\u2019s disease"
     year: '2022'
   6I0mg_EAAAAJ:hC7cP41nSMkC:
