@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-11-04'
+  last_updated: '2026-11-09'
 papers:
   6I0mg_EAAAAJ:-f6ydRqryjwC:
     citations: 4
@@ -14,7 +14,7 @@ papers:
     title: Transformer as a hippocampal memory consolidation model based on NMDAR-inspired nonlinearity
     year: '2023'
   6I0mg_EAAAAJ:4DMP91E08xMC:
-    citations: 19
+    citations: 20
     title: Exploring persona-dependent llm alignment for the moral machine experiment
     year: '2025'
   6I0mg_EAAAAJ:4TOpqqG69KYC:
@@ -30,11 +30,11 @@ papers:
     title: 'SUBTLE: An unsupervised platform with temporal link embedding that maps animal behavior'
     year: '2024'
   6I0mg_EAAAAJ:IjCSPb-OGe4C:
-    citations: 126
+    citations: 127
     title: Control of motor coordination by astrocytic tonic GABA release through modulation of excitation/inhibition balance in cerebellum
     year: '2018'
   6I0mg_EAAAAJ:L8Ckcad2t8MC:
-    citations: 5
+    citations: 6
     title: 'Dropouts in confidence: Moral uncertainty in human-LLM alignment'
     year: '2026'
   6I0mg_EAAAAJ:LkGwnXOMwfcC:
@@ -74,7 +74,7 @@ papers:
     title: Development of a Low-cost, Comprehensive Recording System for Circadian Rhythm Behavior
     year: '2018'
   6I0mg_EAAAAJ:Wp0gIr-vW9MC:
-    citations: 17
+    citations: 18
     title: "Integrating artificial intelligence and optogenetics for Parkinson\u2019s disease diagnosis and therapeutics in male mice"
     year: '2025'
   6I0mg_EAAAAJ:Y0pCki6q_DkC:
@@ -98,7 +98,7 @@ papers:
     title: Brain-inspired -Convolution benefits large kernels and aligns better with visual cortex
     year: '2025'
   6I0mg_EAAAAJ:d1gkVwhDpl0C:
-    citations: 309
+    citations: 308
     title: Ultrasonic neuromodulation via astrocytic TRPA1
     year: '2019'
   6I0mg_EAAAAJ:dhFuZR0502QC:
